@@ -1,0 +1,285 @@
+{
+  "categories": [
+    {
+      "id": 11,
+      "count": 1,
+      "description": "",
+      "link": "https://pngcje.gov.pg/category/court-staff/",
+      "name": "Court Staff",
+      "slug": "court-staff",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories/11"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/posts?categories=11"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "count": 1,
+      "description": "",
+      "link": "https://pngcje.gov.pg/category/judges-and-magistrates/",
+      "name": "Judges and Magistrates",
+      "slug": "judges-and-magistrates",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories/12"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/posts?categories=12"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "count": 0,
+      "description": "",
+      "link": "https://pngcje.gov.pg/category/judges_and_media/",
+      "name": "Judges and Media",
+      "slug": "judges_and_media",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories/16"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/posts?categories=16"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "count": 1,
+      "description": "",
+      "link": "https://pngcje.gov.pg/category/pcjenews/",
+      "name": "PCJE LATEST NEWS",
+      "slug": "pcjenews",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories/22"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/posts?categories=22"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "count": 0,
+      "description": "",
+      "link": "https://pngcje.gov.pg/category/pngcje_deputy_director-2/",
+      "name": "PNGCJE Executive Deputy Director",
+      "slug": "pngcje_deputy_director-2",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories/17"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/posts?categories=17"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "count": 119,
+      "description": "PngCJE's new Deputy Executive Director",
+      "link": "https://pngcje.gov.pg/category/pngcje_deputy_director/",
+      "name": "PngCJE News",
+      "slug": "pngcje_deputy_director",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories/1"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/posts?categories=1"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "count": 2,
+      "description": "",
+      "link": "https://pngcje.gov.pg/category/workshops/",
+      "name": "Workshops",
+      "slug": "workshops",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories/10"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://pngcje.gov.pg/wp-json/wp/v2/posts?categories=10"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ],
+  "tags": []
+}

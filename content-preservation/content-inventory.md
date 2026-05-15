@@ -1,0 +1,653 @@
+# PNGCJE Content Preservation Inventory
+
+Source: https://pngcje.gov.pg
+Exported: 2026-05-13T14:19:35.898870+00:00
+
+## Counts
+- pages: 31
+- posts: 121
+- media: 484
+- categories: 7
+- tags: 0
+
+## Pages
+- Executive Director Speeches | `executive-director-speeches` | https://pngcje.gov.pg/executive-director-speeches/
+- LawAsia – Registration | `lawasiaregistration` | https://pngcje.gov.pg/lawasiaregistration/
+- home_dev | `home_dev` | https://pngcje.gov.pg/home_dev/
+- Handbook | `handbook` | https://pngcje.gov.pg/handbook/
+- UPCOMING EVENTS | `integrity-and-judicial-well-being-2-2` | https://pngcje.gov.pg/integrity-and-judicial-well-being-2-2/
+- Integrity and Judicial Well-being | `integrity-and-judicial-well-being-2` | https://pngcje.gov.pg/integrity-and-judicial-well-being-2/
+- Hotel Confirmation | `hotel-confirmation` | https://pngcje.gov.pg/hotel-confirmation/
+- Payment Response | `payment-response` | https://pngcje.gov.pg/payment-response/
+- My account | `my-account` | https://pngcje.gov.pg/my-account/
+- Checkout | `checkout` | https://pngcje.gov.pg/checkout/
+- Cart | `cart` | https://pngcje.gov.pg/cart/
+- Shop | `shop` | https://pngcje.gov.pg/shop/
+- Our Work | `our-work` | https://pngcje.gov.pg/our-work/
+- Register | `register` | https://pngcje.gov.pg/register/
+- Continuing Professional Development Lectures | `continuing-professional-development-lectures` | https://pngcje.gov.pg/continuing-professional-development-lectures/
+- Papua New Guinea Supreme Court & National Court Case Notes | `papua-new-guinea-supreme-court-national-court-case-notes` | https://pngcje.gov.pg/papua-new-guinea-supreme-court-national-court-case-notes/
+- Contact Us | `contact-us` | https://pngcje.gov.pg/contact-us/
+- Lecture Series | `lecture-series` | https://pngcje.gov.pg/lecture-series/
+- Pacific Centre For Judicial Excellence | `pacific-island-centre-for-judicial-excellence` | https://pngcje.gov.pg/pacific-island-centre-for-judicial-excellence/
+- Bench Books | `bench-books` | https://pngcje.gov.pg/bench-books/
+- Customer Service | `customer-service` | https://pngcje.gov.pg/customer-service/
+- Newsletters | `newsletters` | https://pngcje.gov.pg/newsletters/
+- Training Calendar | `training-calendar` | https://pngcje.gov.pg/prospectus/training-calendar/
+- Prospectus | `prospectus` | https://pngcje.gov.pg/prospectus/
+- Sitemap | `sitemap` | https://pngcje.gov.pg/about/sitemap/
+- Annual Reports | `annual-reports` | https://pngcje.gov.pg/prospectus/annual-reports/
+- Governance | `governance` | https://pngcje.gov.pg/about/governance/
+- Our Staff | `staff` | https://pngcje.gov.pg/about/staff/
+- About the PngCJE | `about` | https://pngcje.gov.pg/about/
+- News | `news` | https://pngcje.gov.pg/news/
+- Home | `home` | https://pngcje.gov.pg/
+
+## Posts
+- 2026-04-24 | Acting Chief Justice Mogish opens GBV Forum | `acting-chief-justice-mogish-opens-gbv-forum` | https://pngcje.gov.pg/acting-chief-justice-mogish-opens-gbv-forum/
+- 2026-04-24 | PNGCJE and UNDP strengthen their partnership | `pngcje-and-undp-strengthen-their-partnership` | https://pngcje.gov.pg/pngcje-and-undp-strengthen-their-partnership/
+- 2026-04-24 | Acting Chief Justice Hon Justice Panuel Mogish opens regional judicial conduct training | `acting-chief-justice-hon-justice-panuel-mogish-opens-regional-judicial-conduct-training` | https://pngcje.gov.pg/acting-chief-justice-hon-justice-panuel-mogish-opens-regional-judicial-conduct-training/
+- 2026-03-26 | Justice Dingake facilitates GBV training in Mt. Hagen, Western Highlands | `justice-dingake-facilitates-gbv-training-in-mt-hagen-western-highlands` | https://pngcje.gov.pg/justice-dingake-facilitates-gbv-training-in-mt-hagen-western-highlands/
+- 2026-03-19 | Hon. Justice John Carey inspires law students and lawyers at UPNG with lecture on Mastering Legal Knowledge | `hon-justice-john-carey-inspires-law-students-and-lawyers-at-upng-with-lecture-on-mastering-legal-knowledge` | https://pngcje.gov.pg/hon-justice-john-carey-inspires-law-students-and-lawyers-at-upng-with-lecture-on-mastering-legal-knowledge/
+- 2026-03-16 | Strengthening Community Justice Through Partnership | `strengthening-community-justice-through-partnership` | https://pngcje.gov.pg/strengthening-community-justice-through-partnership/
+- 2026-03-03 | Papua New Guinea Judiciary showcases leadership at Commonwealth Judicial Educators Meeting in India | `papua-new-guinea-judiciary-showcases-leadership-at-commonwealth-judicial-educators-meeting-in-india` | https://pngcje.gov.pg/papua-new-guinea-judiciary-showcases-leadership-at-commonwealth-judicial-educators-meeting-in-india/
+- 2026-03-02 | From Botswana to the Pacific: Justice Dingake’s Historic ICJ nomination | `from-botswana-to-the-pacific-justice-dingakes-historic-icj-nomination` | https://pngcje.gov.pg/from-botswana-to-the-pacific-justice-dingakes-historic-icj-nomination/
+- 2026-02-17 | British High Commission Hosts Breakfast Seminar on International Judicial Practice | `british-high-commission-hosts-breakfast-seminar-on-international-judicial-practice` | https://pngcje.gov.pg/british-high-commission-hosts-breakfast-seminar-on-international-judicial-practice/
+- 2026-02-13 | Papua New Guinea Centre for Judicial Excellence Participates in Regional Coordination Meeting 2026 | `papua-new-guinea-centre-for-judicial-excellence-participates-in-regional-coordination-meeting-2026` | https://pngcje.gov.pg/papua-new-guinea-centre-for-judicial-excellence-participates-in-regional-coordination-meeting-2026/
+- 2026-02-10 | Justice Carey presents paper on Judiciary’s role in Safeguarding Democracy | `justice-carey-presents-landmark-paper-on-judiciarys-role-in-safeguarding-democracy` | https://pngcje.gov.pg/justice-carey-presents-landmark-paper-on-judiciarys-role-in-safeguarding-democracy/
+- 2026-02-09 | PNGCJE Judge Administrator meets with Commonwealth Lawyers Association Leadership in Fiji | `pngcje-judge-administrator-meets-with-commonwealth-lawyers-association-leadership-in-fiji` | https://pngcje.gov.pg/pngcje-judge-administrator-meets-with-commonwealth-lawyers-association-leadership-in-fiji/
+- 2026-02-08 | Judiciary Marks the Opening of the 2026 Legal Year | `judiciary-marks-the-opening-of-the-2026-legal-year` | https://pngcje.gov.pg/judiciary-marks-the-opening-of-the-2026-legal-year/
+- 2026-01-19 | PNG Judiciary leads global push for Integrity and Judicial Well-being at COSP11 | `png-judiciary-leads-global-push-for-integrity-and-judicial-well-being-at-cosp11` | https://pngcje.gov.pg/png-judiciary-leads-global-push-for-integrity-and-judicial-well-being-at-cosp11/
+- 2026-01-19 | Strengthening justice and rule of law: PNGCJE Welcomes British Deputy High Commissioner | `strengthening-justice-and-rule-of-law-pngcje-welcomes-british-deputy-high-commissioner` | https://pngcje.gov.pg/strengthening-justice-and-rule-of-law-pngcje-welcomes-british-deputy-high-commissioner/
+- 2026-01-07 | The Investment and Trade Court receives a judicial delegation from the Independent State of Papua New Guinea | `the-investment-and-trade-court-receives-a-judicial-delegation-from-the-independent-state-of-papua-new-guinea` | https://pngcje.gov.pg/the-investment-and-trade-court-receives-a-judicial-delegation-from-the-independent-state-of-papua-new-guinea/
+- 2025-09-24 | Papua New Guinea Centre for Judicial Excellence hosts successful CLE seminar in partnership with Regional and International Legal Bodies | `papua-new-guinea-centre-for-judicial-excellence-hosts-successful-cle-seminar-in-partnership-with-regional-and-international-legal-bodies` | https://pngcje.gov.pg/papua-new-guinea-centre-for-judicial-excellence-hosts-successful-cle-seminar-in-partnership-with-regional-and-international-legal-bodies/
+- 2025-09-23 | PNGCJE successfully conducts Judicial Orientation Program for newly appointed Judges | `pngcje-successfully-conducts-judicial-orientation-program-for-newly-appointed-judges` | https://pngcje.gov.pg/pngcje-successfully-conducts-judicial-orientation-program-for-newly-appointed-judges/
+- 2025-08-13 | Global judicial leaders unite in PNG to promote well-being and ethical justice systems | `global-judicial-leaders-unite-in-png-to-promote-well-being-and-ethical-justice-systems` | https://pngcje.gov.pg/global-judicial-leaders-unite-in-png-to-promote-well-being-and-ethical-justice-systems/
+- 2025-08-12 | Papua New Guinea leads global push to strengthen Judicial Integrity and Well-Being | `papua-new-guinea-leads-global-push-to-strengthen-judicial-integrity-and-well-being` | https://pngcje.gov.pg/papua-new-guinea-leads-global-push-to-strengthen-judicial-integrity-and-well-being/
+- 2025-08-09 | Papua New Guinea Judiciary to host landmark International Judicial Conference on Integrity and Well-Being | `papua-new-guinea-judiciary-to-host-landmark-international-judicial-conference-on-integrity-and-well-being` | https://pngcje.gov.pg/papua-new-guinea-judiciary-to-host-landmark-international-judicial-conference-on-integrity-and-well-being/
+- 2025-08-09 | Judges and spouses take part in Judicial Wellness program to promote holistic well-being | `judges-and-spouses-take-part-in-judicial-wellness-program-to-promote-holistic-well-being` | https://pngcje.gov.pg/judges-and-spouses-take-part-in-judicial-wellness-program-to-promote-holistic-well-being/
+- 2025-08-09 | Judges observe International Judicial Well-being Day | `judges-observe-international-judicial-well-being-day` | https://pngcje.gov.pg/judges-observe-international-judicial-well-being-day/
+- 2025-08-09 | PNGCJE rolls out training programs for Court Officers in the Provinces | `pngcje-rolls-out-training-programs-for-court-officers-in-the-provinces` | https://pngcje.gov.pg/pngcje-rolls-out-training-programs-for-court-officers-in-the-provinces/
+- 2025-08-09 | Papua New Guinea Centre for Judicial Excellence (PNGCJE) and University of Papua New Guinea (UPNG) Host the Sir Buri Kidu Lecture Series | `papua-new-guinea-centre-for-judicial-excellence-pngcje-and-university-of-papua-new-guinea-upng-host-the-sir-buri-kidu-lecture-series` | https://pngcje.gov.pg/papua-new-guinea-centre-for-judicial-excellence-pngcje-and-university-of-papua-new-guinea-upng-host-the-sir-buri-kidu-lecture-series/
+- 2025-07-03 | The PNGCJE and Commonwealth Secretariat host Latimer House Principles Symposium for Judges | `the-pngcje-and-commonwealth-secretariat-host-latimer-house-principles-symposium-for-judges` | https://pngcje.gov.pg/the-pngcje-and-commonwealth-secretariat-host-latimer-house-principles-symposium-for-judges/
+- 2025-06-18 | Strengthening advocacy skills with our Pacific neighbours | `strengthening-advocacy-skills-with-our-pacific-neighbours` | https://pngcje.gov.pg/strengthening-advocacy-skills-with-our-pacific-neighbours/
+- 2025-05-26 | PNGCJE collaborates with UNDP to train court officers on Human Rights and Anti-Corruption | `pngcje-collaborates-with-undp-to-train-court-officers-on-human-rights-and-anti-corruption` | https://pngcje.gov.pg/pngcje-collaborates-with-undp-to-train-court-officers-on-human-rights-and-anti-corruption/
+- 2025-05-20 | Pacific Centre for Judicial Excellence leads regional workshop on Managing and Reporting Fraud and Corruption Cases | `pacific-centre-for-judicial-excellence-leads-regional-workshop-on-managing-and-reporting-fraud-and-corruption-cases` | https://pngcje.gov.pg/pacific-centre-for-judicial-excellence-leads-regional-workshop-on-managing-and-reporting-fraud-and-corruption-cases/
+- 2025-02-18 | PCJE highlights strategic intentions for the future at the Pacific Regional Meeting | `pcje-highlights-strategic-intensions-for-the-future-at-the-pacific-regional-meeting` | https://pngcje.gov.pg/pcje-highlights-strategic-intensions-for-the-future-at-the-pacific-regional-meeting/
+- 2025-02-18 | Chief Justice attends Pacific Judicial conference hosted in New Zealand | `chief-justice-attends-pacific-judicial-conference-hosted-in-new-zealand` | https://pngcje.gov.pg/chief-justice-attends-pacific-judicial-conference-hosted-in-new-zealand/
+- 2024-11-28 | Chief Justice meets with delegates from The High People’s Court of Beijing Municipality | `chief-justice-meets-with-delegates-from-the-high-peoples-court-of-beijing-municipality` | https://pngcje.gov.pg/chief-justice-meets-with-delegates-from-the-high-peoples-court-of-beijing-municipality/
+- 2024-11-28 | Chief Justice attends regional Chief Justices meeting in Fiji | `chief-justice-attends-regional-chief-justices-meeting-in-fiji` | https://pngcje.gov.pg/chief-justice-attends-regional-chief-justices-meeting-in-fiji/
+- 2024-11-08 | PNGCJE in Partnership with the Federal Court of Australia holds Court Officer Training Workshop in Tonga | `pngcje-in-partnership-with-the-federal-court-of-australia-holds-court-officer-training-workshop-in-tonga` | https://pngcje.gov.pg/pngcje-in-partnership-with-the-federal-court-of-australia-holds-court-officer-training-workshop-in-tonga/
+- 2024-11-08 | Kokopo National Court staff complete two-day customer service training | `kokopo-national-court-staff-complete-two-day-customer-service-training` | https://pngcje.gov.pg/kokopo-national-court-staff-complete-two-day-customer-service-training/
+- 2024-11-08 | Judges attend IOJT Conference in South Korea. | `elementor-3076` | https://pngcje.gov.pg/elementor-3076/
+- 2024-09-18 | Continuing Legal Education for Lawyers a success | `continuing-legal-education-for-lawyers-a-success` | https://pngcje.gov.pg/continuing-legal-education-for-lawyers-a-success/
+- 2024-09-18 | Chief Justice attends CMJA conference in Rwanda | `chief-justice-attends-cmja-conference-in-rwanda` | https://pngcje.gov.pg/chief-justice-attends-cmja-conference-in-rwanda/
+- 2024-09-18 | Judges, Magistrates, Mediators attend two-day Advanced Mediation Skills Training | `judges-magistrates-mediators-attend-two-day-advanced-mediation-skills-training` | https://pngcje.gov.pg/judges-magistrates-mediators-attend-two-day-advanced-mediation-skills-training/
+- 2024-09-18 | Final topics of the 10th Asia Pacific Mediation Forum Conference | `final-topics-of-the-10th-asia-pacific-mediation-forum-conference` | https://pngcje.gov.pg/final-topics-of-the-10th-asia-pacific-mediation-forum-conference/
+- 2024-09-18 | A look at the 10th APMF Conference topics | `a-look-at-the-10th-apmf-conference-topics` | https://pngcje.gov.pg/a-look-at-the-10th-apmf-conference-topics/
+- 2024-09-18 | Judiciary set to host the 10th Asia Pacific Mediation Forum Conference 2024 | `judiciary-set-to-host-the-10th-asia-pacific-mediation-forum-conference-2024` | https://pngcje.gov.pg/judiciary-set-to-host-the-10th-asia-pacific-mediation-forum-conference-2024/
+- 2024-07-17 | Judges and spouses attend Judicial wellness program | `judges-and-spouses-attend-judicial-wellness-program` | https://pngcje.gov.pg/judges-and-spouses-attend-judicial-wellness-program/
+- 2024-06-24 | Deputy President of the Industrial Court of Queensland and the Queensland Industrial Relations Commission to present at UPNG | `deputy-president-of-the-industrial-court-of-queensland-and-the-queensland-industrial-relations-commission-to-present-at-upng` | https://pngcje.gov.pg/deputy-president-of-the-industrial-court-of-queensland-and-the-queensland-industrial-relations-commission-to-present-at-upng/
+- 2024-06-14 | Judge Conducts Vital Ethics and Integrity Workshop for Court Staff | `judge-conducts-vital-ethics-and-integrity-workshop-for-court-staff` | https://pngcje.gov.pg/judge-conducts-vital-ethics-and-integrity-workshop-for-court-staff/
+- 2024-05-03 | Judges and Magistrates attend Training on Human Rights, Anti-Corruption and Gender Equality | `judges-and-magistrates-attend-training-on-human-rights-anti-corruption-and-gender-equality` | https://pngcje.gov.pg/judges-and-magistrates-attend-training-on-human-rights-anti-corruption-and-gender-equality/
+- 2024-04-29 | PROTOCOL WORKSHOP PREPARES STAFF FOR EVENT | `protocol-workshop-prepares-staff-for-event` | https://pngcje.gov.pg/protocol-workshop-prepares-staff-for-event/
+- 2024-04-23 | Commercial Track Judges attend SIFoCC meeting in Doha, Qatar 20 – 21 April 2024. | `commercial-track-judges-attend-sifocc-meeting-in-doha-qatar-20-21-april-2024` | https://pngcje.gov.pg/commercial-track-judges-attend-sifocc-meeting-in-doha-qatar-20-21-april-2024/
+- 2024-04-15 | APMF Support staff undergo judicial protocol training | `apmf-support-staff-undergo-judicial-protocol-training` | https://pngcje.gov.pg/apmf-support-staff-undergo-judicial-protocol-training/
+- 2024-03-22 | PNGCJE welcomes new Deputy Executive Director. | `pngcje-welcomes-new-deputy-executive-director` | https://pngcje.gov.pg/pngcje-welcomes-new-deputy-executive-director/
+- 2024-03-13 | PNGCJE facilitates Customer Service training in Alotau | `pngcje-facilitates-customer-service-training-in-alotau` | https://pngcje.gov.pg/pngcje-facilitates-customer-service-training-in-alotau/
+- 2024-02-13 | Judges and Magistrates attend Symposium on Cybercrime and Electronic Evidence | `judges-and-magistrates-attend-symposium-on-cybercrime-and-electronic-evidence` | https://pngcje.gov.pg/judges-and-magistrates-attend-symposium-on-cybercrime-and-electronic-evidence/
+- 2024-02-13 | PICTORIAL – Dr. Peter Maynard | `pictorial-dr-peter-maynard` | https://pngcje.gov.pg/pictorial-dr-peter-maynard/
+- 2024-01-26 | President of Commonwealth Lawyers Association to visit Port Moresby | `president-of-commonwealth-lawyers-association-to-visit-port-moresby` | https://pngcje.gov.pg/president-of-commonwealth-lawyers-association-to-visit-port-moresby/
+- 2023-11-27 | Justice Dingake delivers webinar on Human Rights in PNG. | `justice-dingake-delivers-webinar-on-human-rights-in-png` | https://pngcje.gov.pg/justice-dingake-delivers-webinar-on-human-rights-in-png/
+- 2023-11-23 | Ethics and Integrity Workshop | `ethics-and-integrity-workshop` | https://pngcje.gov.pg/ethics-and-integrity-workshop/
+- 2023-11-07 | PICTORIAL OF SITE VISITS. | `pictorial-of-site-visits` | https://pngcje.gov.pg/pictorial-of-site-visits/
+- 2023-10-30 | Justice Oagile Dingake publishes paper on Constitution-building and safeguarding the integrity of elections in Africa | `justice-oagile-dingake-publishes-paper-on-constitution-building-and-safeguarding-the-integrity-of-elections-in-africa` | https://pngcje.gov.pg/justice-oagile-dingake-publishes-paper-on-constitution-building-and-safeguarding-the-integrity-of-elections-in-africa/
+- 2023-10-30 | Training on Anti-Corruption Legislative Reforms in PNG for Legal Practitioners | `training-on-anti-corruption-legislative-reforms-in-png-for-legal-practitioners` | https://pngcje.gov.pg/training-on-anti-corruption-legislative-reforms-in-png-for-legal-practitioners/
+- 2023-10-28 | Chief Justice of the Federal Court of Australia visits the new Waigani National and Supreme Court complex | `chief-justice-of-the-federal-court-of-australia-visits-the-new-waigani-national-and-supreme-court-complex` | https://pngcje.gov.pg/chief-justice-of-the-federal-court-of-australia-visits-the-new-waigani-national-and-supreme-court-complex/
+- 2023-09-21 | Lawyers attend training on Whistleblower Protection | `lawyers-attend-training-on-whistleblower-protection` | https://pngcje.gov.pg/lawyers-attend-training-on-whistleblower-protection/
+- 2023-08-29 | NJSS staff attend ethics and integrity workshop | `njss-staff-attend-ethics-and-integrity-workshop-2` | https://pngcje.gov.pg/njss-staff-attend-ethics-and-integrity-workshop-2/
+- 2023-08-22 | Customer satisfaction fundamental for work of courts | `customer-satisfaction-fundamental-for-work-of-courts` | https://pngcje.gov.pg/customer-satisfaction-fundamental-for-work-of-courts/
+- 2023-08-22 | Judges and Magistrates attend Anti-money laundering and counter Terrorism Finance training | `judges-and-magistrates-attend-anti-money-laundering-and-counter-terrorism-finance-training` | https://pngcje.gov.pg/judges-and-magistrates-attend-anti-money-laundering-and-counter-terrorism-finance-training/
+- 2023-08-08 | PNGCJE holds stakeholder meeting to improve access to justice. | `pngcje-holds-stakeholder-meeting-to-improve-access-to-justice` | https://pngcje.gov.pg/pngcje-holds-stakeholder-meeting-to-improve-access-to-justice/
+- 2023-08-04 | The journey of Justice Carey from the Caribbean to PNG | `the-journey-of-justice-dr-carey-from-the-caribbean-to-png` | https://pngcje.gov.pg/the-journey-of-justice-dr-carey-from-the-caribbean-to-png/
+- 2023-08-04 | NJSS staff undergo protocol training | `njss-staff-undergo-protocol-training` | https://pngcje.gov.pg/njss-staff-undergo-protocol-training/
+- 2023-08-01 | Court officers attend awareness program on Gender Equity and Social Inclusion | `court-officers-attend-awareness-program-on-gender-equity-and-social-inclusion` | https://pngcje.gov.pg/court-officers-attend-awareness-program-on-gender-equity-and-social-inclusion/
+- 2023-07-25 | Pictorial: PNGCJE Executive Director appointed as Judge of the PNG Supreme and National Courts | `pictorial-pngcje-executive-director-appointed-as-judge-of-the-png-supreme-and-national-courts` | https://pngcje.gov.pg/pictorial-pngcje-executive-director-appointed-as-judge-of-the-png-supreme-and-national-courts/
+- 2023-07-18 | Madang Court Officers undergo Gender Equity and Social Inclusion Training | `madang-court-officers-undergo-gender-equity-and-social-inclusion-training` | https://pngcje.gov.pg/madang-court-officers-undergo-gender-equity-and-social-inclusion-training/
+- 2023-07-17 | PNGCJE staff graduates from a senior executive women’s program | `pngcje-staff-graduates-from-a-senior-executive-womens-program` | https://pngcje.gov.pg/pngcje-staff-graduates-from-a-senior-executive-womens-program/
+- 2023-07-17 | NJSS staff in Mendi complete two-day customer service training | `njss-staff-in-mendi-complete-two-day-customer-service-training` | https://pngcje.gov.pg/njss-staff-in-mendi-complete-two-day-customer-service-training/
+- 2023-06-06 | PNGCJE facilitates training in New Ireland Province | `pngcje-facilitates-training-in-new-ireland-province` | https://pngcje.gov.pg/pngcje-facilitates-training-in-new-ireland-province/
+- 2023-06-05 | Pictorial: The Chief Justice of Australia Honourable Susan Kiefel AC LLM on her visit to Papua New Guinea for the Sir Buri Kidu Lecture Series. | `pictorial-the-chief-justice-of-australia-honourable-susan-kiefel-ac-llm-on-her-visit-to-papua-new-guinea-for-the-sir-buri-kidu-lecture-series` | https://pngcje.gov.pg/pictorial-the-chief-justice-of-australia-honourable-susan-kiefel-ac-llm-on-her-visit-to-papua-new-guinea-for-the-sir-buri-kidu-lecture-series/
+- 2023-06-05 | Deputy Registrar conducts webinar on Customary Law in PNG | `deputy-registrar-conducts-webinar-on-customary-law-in-png` | https://pngcje.gov.pg/deputy-registrar-conducts-webinar-on-customary-law-in-png/
+- 2023-06-01 | Justice Lawrence Kangwia gives Leadership Tribunal webinar. | `justice-lawrence-kangwia-gives-leadership-tribunal-webinar` | https://pngcje.gov.pg/justice-lawrence-kangwia-gives-leadership-tribunal-webinar/
+- 2023-05-23 | Australian Chief Justice Susan Kiefel gives lecture on Judicial review | `australian-chief-justice-susan-kiefel-gives-lecture-on-judicial-reviews` | https://pngcje.gov.pg/australian-chief-justice-susan-kiefel-gives-lecture-on-judicial-reviews/
+- 2023-05-23 | Magisterial Services staff receive ToT training | `magisterial-services-staff-receive-tot-training` | https://pngcje.gov.pg/magisterial-services-staff-receive-tot-training/
+- 2023-05-15 | Chief Justice of the High Court of Australia to be the distinguished guest speaker at the Sir Buri Kidu Lecture Series | `chief-justice-of-the-high-court-of-australia-to-be-the-distinguished-guest-speaker-at-the-sir-buri-kidu-lecture-series` | https://pngcje.gov.pg/chief-justice-of-the-high-court-of-australia-to-be-the-distinguished-guest-speaker-at-the-sir-buri-kidu-lecture-series/
+- 2023-04-24 | Pacific Court Officers Attend Fraud and Corruption workshop | `pacific-court-officers-attend-fraud-and-corruption-workshop` | https://pngcje.gov.pg/pacific-court-officers-attend-fraud-and-corruption-workshop/
+- 2023-04-13 | NJSS second batch undergo GESI training | `njss-second-batch-undergo-gesi-training` | https://pngcje.gov.pg/njss-second-batch-undergo-gesi-training/
+- 2023-04-11 | Judges and their spouses undergo two-day Judicial wellness for judges program | `judges-and-their-spouses-undergo-two-day-judicial-wellness-for-judges-program` | https://pngcje.gov.pg/judges-and-their-spouses-undergo-two-day-judicial-wellness-for-judges-program/
+- 2023-04-11 | The staff of NJSS undergoes Gender and Social Inclusion Awareness | `the-staff-of-njss-undergoes-gender-and-social-inclusion-awareness` | https://pngcje.gov.pg/the-staff-of-njss-undergoes-gender-and-social-inclusion-awareness/
+- 2023-02-15 | Continuing Professional Development Seminar on Revenue Law and Practice in Papua New Guinea | `continuing-professional-development-seminar-on-revenue-law-and-practice-in-papua-new-guinea` | https://pngcje.gov.pg/continuing-professional-development-seminar-on-revenue-law-and-practice-in-papua-new-guinea/
+- 2023-02-09 | Papua New Guinea Centre for Judicial Excellence (PNGCJE) hosts Commonwealth Regional Conference for Pacific Islands Judiciaries | `cybercrime-workshop-port-moresby` | https://pngcje.gov.pg/cybercrime-workshop-port-moresby/
+- 2023-02-06 | LEGAL TRAINING INSTITUTE – 17th GRADUATION CEREMONY | `legal-training-institute-17th-graduation-ceremony` | https://pngcje.gov.pg/legal-training-institute-17th-graduation-ceremony/
+- 2022-12-12 | JUDICIAL OFFICERS ATTEND FRAUD AND CORRUPTION WORKSHOP | `judicial-officers-engage-in-fraud-and-corruption-workshop` | https://pngcje.gov.pg/judicial-officers-engage-in-fraud-and-corruption-workshop/
+- 2022-08-16 | COMMUNITY AWARENESS ON ACCESS TO JUSTICE | `community-awareness-on-access-to-justice-2` | https://pngcje.gov.pg/community-awareness-on-access-to-justice-2/
+- 2022-08-12 | Basic Mediation Skills Trainings | `basic-mediation-skills-trainings` | https://pngcje.gov.pg/basic-mediation-skills-trainings/
+- 2022-07-01 | SIR BURI KIDU LECTURE SERIES – | `sir-buri-kidu-lecture-series-2` | https://pngcje.gov.pg/sir-buri-kidu-lecture-series-2/
+- 2022-06-30 | District Court User Manual Workshop | `district-court-user-manual-workshop` | https://pngcje.gov.pg/district-court-user-manual-workshop/
+- 2022-06-08 | Financial Literacy Course for Court Staff in Popondetta | `financial-literacy-course-for-court-staff-in-popondetta` | https://pngcje.gov.pg/financial-literacy-course-for-court-staff-in-popondetta/
+- 2022-06-08 | Financial Literacy Course for Court Staff in Alotau | `financial-literacy-course-for-court-staff-in-alotau` | https://pngcje.gov.pg/financial-literacy-course-for-court-staff-in-alotau/
+- 2022-03-30 | SIR BURI KIDU LECTURE SERIES. | `sir-buri-kidu-lecture-series` | https://pngcje.gov.pg/sir-buri-kidu-lecture-series/
+- 2022-03-04 | Access To Justice – Jiwaka Province | `access-to-justice-jiwaka-province` | https://pngcje.gov.pg/access-to-justice-jiwaka-province/
+- 2022-02-23 | COMMUNITY AWARENESS ON ACCESS TO JUSTICE | `community-awareness-on-access-to-justice` | https://pngcje.gov.pg/community-awareness-on-access-to-justice/
+- 2021-11-29 | Productivity Training for Court Staff | `productivity-training-for-court-staff` | https://pngcje.gov.pg/productivity-training-for-court-staff/
+- 2021-11-29 | Judicial Orientation Training for Newly Appointed Acting Judges | `judicial-orientation-training-for-newly-appointed-acting-judges` | https://pngcje.gov.pg/judicial-orientation-training-for-newly-appointed-acting-judges/
+- 2021-11-09 | Papua New Guinea Centre for Judicial Excellence Team meets Village Court Officials. | `papua-new-guinea-centre-for-judicial-excellence-team-meets-village-court-officials` | https://pngcje.gov.pg/papua-new-guinea-centre-for-judicial-excellence-team-meets-village-court-officials/
+- 2021-10-05 | More trainings for Court Staff in the Provincial Courts | `more-trainings-for-court-staff-in-the-provincial-courts` | https://pngcje.gov.pg/more-trainings-for-court-staff-in-the-provincial-courts/
+- 2021-09-14 | Nine new trainers added to PNGCJE’s Faculty of Trainers | `nine-new-trainers-added-to-pngcjes-faculty-of-trainers` | https://pngcje.gov.pg/nine-new-trainers-added-to-pngcjes-faculty-of-trainers/
+- 2021-09-14 | Justice Carey spoke on Digital Footprints on CMJA Virtual Conference | `dr-carey-spoke-on-digital-footprints-on-cmja-virtual-conference` | https://pngcje.gov.pg/dr-carey-spoke-on-digital-footprints-on-cmja-virtual-conference/
+- 2021-09-03 | AWARENESS AT PAU – PORT MORESBY | `awareness-at-pau-port-moresby` | https://pngcje.gov.pg/awareness-at-pau-port-moresby/
+- 2021-08-20 | Financial Literacy Training in for all Court Staff in PNG. | `financial-literacy-training-in-for-all-court-staff-in-png` | https://pngcje.gov.pg/financial-literacy-training-in-for-all-court-staff-in-png/
+- 2021-08-10 | “Basic Rights and Fundamentals of Justice”  Awareness – Sogeri | `basic-rights-and-fundamentals-of-justice-awareness-sogeri` | https://pngcje.gov.pg/basic-rights-and-fundamentals-of-justice-awareness-sogeri/
+- 2021-08-10 | “Basic Rights and Fundamentals of Justice” at the Tatana village | `basic-rights-and-fundamentals-of-justice-at-the-tatana-village` | https://pngcje.gov.pg/basic-rights-and-fundamentals-of-justice-at-the-tatana-village/
+- 2021-08-10 | “Access to Justice” Awareness – Koki Community | `constitutional-rights-and-freedoms-and-access-to-justice-awareness` | https://pngcje.gov.pg/constitutional-rights-and-freedoms-and-access-to-justice-awareness/
+- 2021-07-21 | Financial Literacy Training | `financial-literacy-training` | https://pngcje.gov.pg/financial-literacy-training/
+- 2021-06-29 | Webinar on How to Use the Outlook to Manage Tasks | `webinar-on-how-to-use-the-outlook-to-manage-tasks` | https://pngcje.gov.pg/webinar-on-how-to-use-the-outlook-to-manage-tasks/
+- 2021-06-29 | GESI Awareness in ITI | `gesi-awareness-in-iti` | https://pngcje.gov.pg/gesi-awareness-in-iti/
+- 2021-06-15 | PNGCJE Collaborates with UPNG | `pngcje-collaborates-with-upng` | https://pngcje.gov.pg/pngcje-collaborates-with-upng/
+- 2021-06-04 | Training of Trainers workshop for NJSS Court Staff. | `training-of-trainers-workshop-for-njss-court-staff` | https://pngcje.gov.pg/training-of-trainers-workshop-for-njss-court-staff/
+- 2021-06-04 | Village Court Secretariat Officers attend Zoom Training. | `village-court-secretariat-officers-attend-zoom-training` | https://pngcje.gov.pg/village-court-secretariat-officers-attend-zoom-training/
+- 2020-06-23 | IOM Papua New Guinea | `iom-papua-new-guinea` | https://pngcje.gov.pg/iom-papua-new-guinea/
+- 2020-02-27 | PNGCJE continues national tour visiting Wewak and Madang Courts | `papua-new-guinea-centre-for-judicial-excellence-pngcje-continues-national-tour-visiting-wewak-and-madang-courts` | https://pngcje.gov.pg/papua-new-guinea-centre-for-judicial-excellence-pngcje-continues-national-tour-visiting-wewak-and-madang-courts/
+- 2020-02-25 | Chief Justice and Chairman of PNGCJE attends UN High Level Judicial Integrity Meeting | `chief-justice-and-chairman-of-papua-new-guinea-centre-for-judicial-excellence-pngcje-attends-un-high-level-judicial-integrity-meeting` | https://pngcje.gov.pg/chief-justice-and-chairman-of-papua-new-guinea-centre-for-judicial-excellence-pngcje-attends-un-high-level-judicial-integrity-meeting/
+- 2020-02-18 | Papua New Guinea Centre for Judicial Excellence (PngCJE) Executive Management conducts Provincial tour of Courts in Lae. | `papua-new-guinea-centre-for-judicial-excellence-pngcje-executive-management-conducts-provincial-tour-of-courts-in-lae` | https://pngcje.gov.pg/papua-new-guinea-centre-for-judicial-excellence-pngcje-executive-management-conducts-provincial-tour-of-courts-in-lae/
+- 2020-02-06 | PngCJE appoints Deputy Executive Director Port Moresby, PNG | `pngcje-appoints-deputy-executive-director-port-moresby-png` | https://pngcje.gov.pg/pngcje-appoints-deputy-executive-director-port-moresby-png/
+- 2020-02-04 | Seminar on Judges and the Media | `seminar-on-judges-and-the-media` | https://pngcje.gov.pg/seminar-on-judges-and-the-media/
+- 2019-07-30 | PngCJE and Magisterial Services host LLG Election Petition Workshop for Magistrates | `pngcje-and-magisterial-services-host-llg-election-petition-workshop-for-magistrates` | https://pngcje.gov.pg/pngcje-and-magisterial-services-host-llg-election-petition-workshop-for-magistrates/
+- 2019-07-18 | PNG Judiciary, PngCJE and PJSI hold Client Services and Judicial Protocol Workshops | `client-services-and-judicial-protocol-workshop` | https://pngcje.gov.pg/client-services-and-judicial-protocol-workshop/
+
+## Media Files
+- IMG_0735-2560×1440-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/04/IMG_0735-2560x1440-1.jpg
+- IMG_0715-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/04/IMG_0715-2560x1440-1.jpg
+- IMG_0688-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/04/IMG_0688-2560x1440-1.jpg
+- IMG_0656-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/04/IMG_0656-2560x1440-1.jpg
+- Screenshot 2026-04-08 160101 | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/04/Screenshot-2026-04-08-160101.png
+- 2026 PNGCJE 1st Quarter Newsletter | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2026/04/2026-PNGCJE-1st-Quarter-Newsletter.pdf
+- 1000088227 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/03/1000088227.jpg
+- a65bd6a7bd384e5eb461696d4f5ba828 | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/03/a65bd6a7bd384e5eb461696d4f5ba828.png
+- IMG_0472-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/03/IMG_0472-2560x1440-1.jpg
+- IMG_0502-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/03/IMG_0502-2560x1440-1.jpg
+- A-Growing-Partnership-for-Community-Justice-and-Civic-Participation-1-2560×1440-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/03/A-Growing-Partnership-for-Community-Justice-and-Civic-Participation-1-2560x1440-1.jpg
+- IMG_9318 (1)-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/03/IMG_9318-1-2560x1440-1.jpg
+- 126406 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/03/126406.jpg
+- IMG_9906-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/03/IMG_9906-2560x1440-1.jpg
+- Professor Dapo Akande (2) – Edited (1) (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/Professor-Dapo-Akande-2-Edited-1-2.jpg
+- Professor-Dapo-Akande-2-Edited-1-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/Professor-Dapo-Akande-2-Edited-1-1.jpg
+- Professor-Dapo-Akande-2-Edited-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/Professor-Dapo-Akande-2-Edited-1.jpg
+- Professor Dapo Akande (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/Professor-Dapo-Akande-1.jpg
+- PNGCJE_Regional_Coordination_Meeting_2026_Press_Release | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/PNGCJE_Regional_Coordination_Meeting_2026_Press_Release.jpg
+- IMG-20260209-WA0013 (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/IMG-20260209-WA0013-1.jpg
+- IMG-20260209-WA0015 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/IMG-20260209-WA0015-1.jpg
+- IMG-20260209-WA0015 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/IMG-20260209-WA0015.jpg
+- Commonwealth Lawyers Association | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/Commonwealth-Lawyers-Association.jpg
+- IMG_9524 (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/IMG_9524-2.jpg
+- IMG_9566 (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/IMG_9566-1.jpg
+- IMG_9543 (3) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/IMG_9543-3.jpg
+- IMG_9524 (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/IMG_9524-1-1.jpg
+- IMG_9524 (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/02/IMG_9524-1.jpg
+- AUGUST 19 – 21, 2026 (2) | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/AUGUST-19-21-2026-2.png
+- AUGUST 19 – 21, 2026 (1) | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/AUGUST-19-21-2026-1-1.png
+- AUGUST 19 – 21, 2026 | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/AUGUST-19-21-2026.png
+- AUGUST 19 – 21, 2026 (1) | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/AUGUST-19-21-2026-1.png
+- 63c70fd2-216c-28a7-fbd6-de47f0c36e4f | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/63c70fd2-216c-28a7-fbd6-de47f0c36e4f.png
+- fb12750a-a555-d5dd-65a8-55932b016080 | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/fb12750a-a555-d5dd-65a8-55932b016080.png
+- 1746598331856 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/1746598331856.jpeg
+- beb760bd-39b9-1ddb-bb65-48a24e4ca0c9 | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/beb760bd-39b9-1ddb-bb65-48a24e4ca0c9.png
+- images | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/images.png
+- c6d43f99-4868-077a-a7b8-9ea6514e93a9 | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/c6d43f99-4868-077a-a7b8-9ea6514e93a9.png
+- LAWASIA Website logo banner – joint event (1)_2 | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/LAWASIA-Website-logo-banner-joint-event-1_2.png
+- pngjudiciary | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/pngjudiciary.png
+- parliament | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/parliament.jpg
+- paclii | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/paclii.png
+- ms | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/ms.jpg
+- doj | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/doj.jpg
+- Untitled design (5)-2560×1440 | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/Untitled-design-5-2560x1440-2.png
+- Untitled design (5)-2560×1440 | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/Untitled-design-5-2560x1440-1.png
+- mecthild2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/mecthild2-scaled.jpg
+- selen3a | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/selen3a.jpg
+- Mr Mirou1a | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/Mr-Mirou1a.jpg
+- PNG Initiatives for the Future on Judicial Well Being | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2026/01/PNG-Initiatives-for-the-Future-on-Judicial-Well-Being.docx
+- Untitled design (4) | image/png | https://pngcje.gov.pg/wp-content/uploads/2026/01/Untitled-design-4.png
+- PNGCJE_Fourth Quarter Newsletter_2025 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2026/01/PNGCJE_Fourth-Quarter-Newsletter_2025-.pdf
+- British High Com (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/British-High-Com-1.jpg
+- 20251218_1766041112-469 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/20251218_1766041112-469.jpg
+- Photo-3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/Photo-3.jpg
+- Photo-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/Photo-2.jpg
+- Photo-1-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/Photo-1-1.jpg
+- Photo-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2026/01/Photo-1.jpg
+- 2023 ANNUAL REPORT (PNGCJE) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/10/2023-ANNUAL-REPORT-PNGCJE.pdf
+- PNGCJE ANNUAL REPORT_2024 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/10/PNGCJE-ANNUAL-REPORT_2024-1.pdf
+- 2023 JUDGES ANNUAL REPORT (PNGCJE) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/10/2023-JUDGES-ANNUAL-REPORT-PNGCJE.pdf
+- PNGCJE ANNUAL REPORT_2024 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/10/PNGCJE-ANNUAL-REPORT_2024.pdf
+- 2025 PNGCJE 3rd Quarter Newsletter | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/10/2025-PNGCJE-3rd-Quarter-Newsletter.pdf
+- PNGCJE_SECOND QUARTER NEWS LETTER .pdf_Updated | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/10/PNGCJE_SECOND-QUARTER-NEWS-LETTER-.pdf_Updated.pdf
+- 2025 PNGCJE 1st Quarter Newsletter_Use.pdf (8) (1) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/10/2025-PNGCJE-1st-Quarter-Newsletter_Use.pdf-8-1.pdf
+- Screenshot 2025-10-08 115648 | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/10/Screenshot-2025-10-08-115648.png
+- Screenshot 2025-10-08 114714 | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/10/Screenshot-2025-10-08-114714.png
+- Screenshot 2025-10-08 114622 | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/10/Screenshot-2025-10-08-114622.png
+- IMG-202570930-WA0008 (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/IMG-202570930-WA0008-1.jpg
+- hero-new.jpg | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/hero-new.jpg
+- image (3) | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/09/image-3.png
+- thumbnail_image (1222) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/thumbnail_image-1222.jpg
+- thumbnail_image (111) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/thumbnail_image-111.jpg
+- thum1bnail_image-2560×3000 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/thum1bnail_image-2560x3000-1.jpg
+- thumbnail_image | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/thumbnail_image.jpg
+- Picture2-2560×2500 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/Picture2-2560x2500-1.jpg
+- sam_kaipu-2560×2500 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/sam_kaipu-2560x2500-1.jpg
+- sam_kaipu | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/sam_kaipu.jpg
+- paranda-2560×2500 (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/paranda-2560x2500-1.jpg
+- paranda | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/paranda.jpg
+- Namani | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/Namani.jpg
+- Dr Kwa | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/Dr-Kwa.jpg
+- Mosoro-2560×1900 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/Mosoro-2560x1900-1.jpg
+- Picture2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/Picture2.jpg
+- Kilage | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/Kilage.jpg
+- cm | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/09/cm.png
+- CM_facial_portrait-2022 Annual Report – Copy | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/CM_facial_portrait-2022-Annual-Report-Copy.jpg
+- carey J | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/carey-J.jpg
+- DCJ-Ambeng-Kandakasi-scaled | image/webp | https://pngcje.gov.pg/wp-content/uploads/2025/09/DCJ-Ambeng-Kandakasi-scaled-1.webp
+- CJ | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/CJ.jpg
+- resized-image | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/09/resized-image.png
+- IMG_5893-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/09/IMG_5893-2560x1440-1.jpg
+- Concept Note Judicial Conference | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/08/Concept-Note-Judicial-Conference.pdf
+- 15.08.2025 – Concept Note Judicial Conference | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/08/15.08.2025-Concept-Note-Judicial-Conference.pdf
+- 2025.08.14-Concept Note Judicial Conference | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/08/2025.08.14-Concept-Note-Judicial-Conference.pdf
+- 2025.08.13-Concept Note Judicial Conference | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/08/2025.08.13-Concept-Note-Judicial-Conference.pdf
+- 2025.08.11-Concept Note Judicial Conference (1) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/08/2025.08.11-Concept-Note-Judicial-Conference-1.pdf
+- 2025.08.11-Concept Note Judicial Conference | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/08/2025.08.11-Concept-Note-Judicial-Conference.pdf
+- IMG_4566-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/08/IMG_4566-2560x1440-1.jpg
+- 6e62ad6c-b102-465e-a5b1-c2293a43ae43-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/08/6e62ad6c-b102-465e-a5b1-c2293a43ae43-2560x1440-1.jpg
+- IMG_3837-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/08/IMG_3837-2560x1440-1.jpg
+- IMG_3616-2560×1440 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/08/IMG_3616-2560x1440-1.jpg
+- 2025.08.01-Concept Note Judicial Conference | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/08/2025.08.01-Concept-Note-Judicial-Conference.pdf
+- WhatsApp Image 2025-06-19 at 10.28.39 (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/07/WhatsApp-Image-2025-06-19-at-10.28.39-1.jpg
+- Picture4 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/06/Picture4.jpg
+- Picture3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/06/Picture3.jpg
+- Picture2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/06/Picture2.jpg
+- IATC – group | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/06/IATC-group-scaled.jpg
+- 2025.05.28-Expression of interest- Judicial Conference | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/05/2025.05.28-Expression-of-interest-Judicial-Conference-1.pdf
+- 2025.05.28-Expression of interest- Judicial Conference | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/05/2025.05.28-Expression-of-interest-Judicial-Conference.pdf
+- 2025.05.22-Concept Note Judicial Conference | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/05/2025.05.22-Concept-Note-Judicial-Conference.pdf
+- Screenshot 2025-05-26 090534 | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/05/Screenshot-2025-05-26-090534.png
+- Pacific Judicial Officers’ Handbook on Fraud and Corruption Offences | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/05/Pacific-Judicial-Officers-Handbook-on-Fraud-and-Corruption-Offences.pdf
+- 2025.05.22-Concept Note Judicial Conference | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2025/05/2025.05.22-Concept-Note-Judicial-Conference.docx
+- Untitled design (3) | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/05/Untitled-design-3.png
+- Pacific Judicial Officers handbook | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2025/05/Pacific-Judicial-Officers-handbook.pdf
+- 2025.04.16-Concept Note Judicial Conference V10 | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2025/04/2025.04.16-Concept-Note-Judicial-Conference-V10.docx
+- 2025.04.10-Concept Note Judicial Conference v9 | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2025/04/2025.04.10-Concept-Note-Judicial-Conference-v9.docx
+- Orange and Black Car Photo Automotive Facebook Cover (2) | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/04/Orange-and-Black-Car-Photo-Automotive-Facebook-Cover-2.png
+- Red and White Modern Geometric Car Rental Service Facebook Cover | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/04/Red-and-White-Modern-Geometric-Car-Rental-Service-Facebook-Cover.png
+- Untitled design (2) | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/04/Untitled-design-2.png
+- 76ef0308-3f9d-4288-aaa2-4a07963aeaea | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/04/76ef0308-3f9d-4288-aaa2-4a07963aeaea.png
+- 6ef4485d-e4c6-4bc6-9021-5c67a0ababbc | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/04/6ef4485d-e4c6-4bc6-9021-5c67a0ababbc.png
+- Picture2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/04/Picture2-scaled.jpg
+- 2025 Sir Buri Kidu Lecture Series – 20 June 2025 (1) | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/02/2025-Sir-Buri-Kidu-Lecture-Series-20-June-2025-1.png
+- a-mesmerizing-sketch-of-papua-new-guinea-s-tribal–5_p1nv2aQYyMdwiVSCkiVw-g6d8MRNyT6SJ7dvXldEMUQ-removebg-preview | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/02/a-mesmerizing-sketch-of-papua-new-guinea-s-tribal-5_p1nv2aQYyMdwiVSCkiVw-g6d8MRNyT6SJ7dvXldEMUQ-removebg-preview.png
+- University_of_Papua_New_Guinea_logo-removebg-preview | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/02/University_of_Papua_New_Guinea_logo-removebg-preview.png
+- 2025 Sir Buri Kidu Lecture Series – 20 June 2025 | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/02/2025-Sir-Buri-Kidu-Lecture-Series-20-June-2025.png
+- 17.02.25_Pacific-Regional-Meeting-AMENDED | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/02/17.02.25_Pacific-Regional-Meeting-AMENDED.jpeg
+- 11.02.25_Pacific-Judicial-Conference-AMENDED | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2025/02/11.02.25_Pacific-Judicial-Conference-AMENDED.jpeg
+- image (1) | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/02/image-1.png
+- LOGO_-_NEW_Pacific_Centre_for_Judicial_Excellence__2_-removebg-preview (1) | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/02/LOGO_-_NEW_Pacific_Centre_for_Judicial_Excellence__2_-removebg-preview-1.png
+- 19ced4fb-a3f6-49e5-a4f3-c86966e6a96b | image/png | https://pngcje.gov.pg/wp-content/uploads/2025/02/19ced4fb-a3f6-49e5-a4f3-c86966e6a96b.png
+- 1000058720 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/11/1000058720.jpg
+- Managing and Reporting on Fraud and Corruption Cases Workshop | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/11/Managing-and-Reporting-on-Fraud-and-Corruption-Cases-Workshop.jpg
+- Customerservice_kokopo | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/11/Customerservice_kokopo.jpg
+- 4staffIOJT | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/11/4staffIOJT.jpg
+- CMJA-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/09/CMJA-1.jpg
+- 10th APMF Conference – Final Full Program | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/08/10th-APMF-Conference-Final-Full-Program.pdf
+- VID-20240815-WA0018 | video/mp4 | https://pngcje.gov.pg/wp-content/uploads/2024/08/VID-20240815-WA0018-3.mp4
+- VID-20240815-WA0018 | video/mp4 | https://pngcje.gov.pg/wp-content/uploads/2024/08/VID-20240815-WA0018-2.mp4
+- VID-20240815-WA0018 | video/mp4 | https://pngcje.gov.pg/wp-content/uploads/2024/08/VID-20240815-WA0018-1.mp4
+- VID-20240815-WA0018 | video/mp4 | https://pngcje.gov.pg/wp-content/uploads/2024/08/VID-20240815-WA0018.mp4
+- 10th APMF Conference – Final Full Program (9) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/08/10th-APMF-Conference-Final-Full-Program-9.pdf
+- 10th APMF Conference – Final Full Program (9) | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2024/08/10th-APMF-Conference-Final-Full-Program-9.docx
+- AMST 14-15 August Program Final 12 Aug | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/08/AMST-14-15-August-Program-Final-12-Aug.pdf
+- 10th APMF Conference – Final Full Program (9) 05082024 425PM | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/08/10th-APMF-Conference-Final-Full-Program-9-05082024-425PM.pdf
+- 10th APMF Conference – Final Full Program (9) 05082024 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/08/10th-APMF-Conference-Final-Full-Program-9-05082024.pdf
+- 10th APMF Conference – Final Full Program (8) 050824 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/08/10th-APMF-Conference-Final-Full-Program-8-050824.pdf
+- 10th APMF Conference – Final Full Program (7) 040824 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/08/10th-APMF-Conference-Final-Full-Program-7-040824.pdf
+- 10th APMF Conference – Final Full Program (6) | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2024/07/10th-APMF-Conference-Final-Full-Program-6-2.docx
+- 10th APMF Conference – Final Full Program (6) | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2024/07/10th-APMF-Conference-Final-Full-Program-6-1.docx
+- 10th APMF Conference – Final Full Program (6) | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2024/07/10th-APMF-Conference-Final-Full-Program-6.docx
+- Untitled design | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/07/Untitled-design.png
+- 10th APMF Conference – Final Full Program (5) | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2024/07/10th-APMF-Conference-Final-Full-Program-5.docx
+- 10th APMF Conference – Final Full Program (3) | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2024/07/10th-APMF-Conference-Final-Full-Program-3.docx
+- IMG_4742 (1) (1) (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/07/IMG_4742-1-1-2.jpg
+- APMF 2024 BIODATA 160724 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/07/APMF-2024-BIODATA-160724.pdf
+- 10th APMF Conference – Final Full Program 24 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/07/10th-APMF-Conference-Final-Full-Program-24.pdf
+- 10th APMF CONFERENCE PROGRAM | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/07/10th-APMF-CONFERENCE-PROGRAM.pdf
+- 10th-APMF-Conference-Final-Full-Program | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/07/10th-APMF-Conference-Final-Full-Program-2.pdf
+- 10th-APMF-Conference-Final-Full-Program (1) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/07/10th-APMF-Conference-Final-Full-Program-1.pdf
+- 10th APMF Conference – Final Full Program | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/07/10th-APMF-Conference-Final-Full-Program.pdf
+- NATIONAL MEDIATORS CONFERENCE 16 August Program | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/07/NATIONAL-MEDIATORS-CONFERENCE-16-August-Program.pdf
+- AMST 14-15 August Program | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/07/AMST-14-15-August-Program.pdf
+- UNEP_2019_English | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/06/UNEP_2019_English.png
+- IMG_5361 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/06/IMG_5361.jpg
+- Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Black-and-Orange-Simple-Dots-Internet-Solution-Flyer-1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/06/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Black-and-Orange-Simple-Dots-Internet-Solution-Flyer-1.png
+- Ethics-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/06/Ethics-2.jpg
+- 2 | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/06/2.png
+- Untitled design | application/zip | https://pngcje.gov.pg/wp-content/uploads/2024/06/Untitled-design.zip
+- Untitled design (1) | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/06/Untitled-design-1.png
+- Untitled design | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/06/Untitled-design.png
+- woocommerce-placeholder | image/png | https://pngcje.gov.pg/wp-content/uploads/woocommerce-placeholder.png
+- 5C5A7355 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/05/5C5A7355-scaled.jpg
+- d669c922-d12f-448d-9a5d-d35fcef55778 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/05/d669c922-d12f-448d-9a5d-d35fcef55778.jpg
+- Untitled_design__2_-removebg-preview-1.png | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/04/Untitled_design__2_-removebg-preview-1-1.png
+- Untitled_design__1_-removebg-preview | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/04/Untitled_design__1_-removebg-preview-e1714364325238.png
+- IMG_5361 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/04/IMG_5361.jpg
+- APMF-logo2-removebg-preview | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/04/APMF-logo2-removebg-preview.png
+- National_emblem_of_Papua_New_Guinea.svg (1) | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/04/National_emblem_of_Papua_New_Guinea.svg-1.png
+- njs logo | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/04/njs-logo.jpg
+- PNGCJE_logo (1) | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/04/PNGCJE_logo-1.png
+- 3 PORT MORESBY DAY TOURS FOR POMOTION. 13.10.2023 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2024/04/3-PORT-MORESBY-DAY-TOURS-FOR-POMOTION.-13.10.2023.pdf
+- 20240420_134840-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/04/20240420_134840-1-e1713845861782.jpg
+- 20240420_134816-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/04/20240420_134816-1-e1713845847743.jpg
+- 20240420_174655-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/04/20240420_174655-1-e1713847474195.jpg
+- 20240421_102849-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/04/20240421_102849-1-e1713845877106.jpg
+- 20240420_174655 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/04/20240420_174655.jpg
+- 20240421_102849 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/04/20240421_102849-e1713843616924.jpg
+- 20240420_134816 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/04/20240420_134816-e1713843589222.jpg
+- 20240420_134840 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/04/20240420_134840-e1713843538681.jpg
+- 1710283773785 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/03/1710283773785.jpg
+- POP UP – Lecture Series 2024 | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/03/POP-UP-Lecture-Series-2024.png
+- Lecture Series 2024 | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/03/Lecture-Series-2024.png
+- IMG-20240228-WA0004 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/03/IMG-20240228-WA0004.jpg
+- IMG_2855 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/03/IMG_2855-2-scaled.jpg
+- backdrop_ampf_page_judiciary_2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/03/backdrop_ampf_page_judiciary_2.jpg
+- DSC_0173-1-1-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/DSC_0173-1-1-2-scaled.jpg
+- DSC_0144-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/DSC_0144-1-scaled.jpg
+- IMG_2780-1-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/IMG_2780-1-1-edited-scaled.jpg
+- IMG_2780-1-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/IMG_2780-1-1-scaled.jpg
+- IMG_2758-1-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/IMG_2758-1-1-scaled.jpg
+- DSC_0173-1-1-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/DSC_0173-1-1-1-scaled.jpg
+- IMG_2780-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/IMG_2780-1-scaled.jpg
+- IMG_2758-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/IMG_2758-1-scaled.jpg
+- DSC_0173-1-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/DSC_0173-1-1-scaled.jpg
+- IMG_2780 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/IMG_2780-scaled.jpg
+- Pictorial_Dr.-Peter-Maynard | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/02/Pictorial_Dr.-Peter-Maynard-scaled.jpg
+- Blue and Yellow Simple Graduation Card | image/png | https://pngcje.gov.pg/wp-content/uploads/2024/01/Blue-and-Yellow-Simple-Graduation-Card.png
+- DSC-0096-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/01/DSC-0096-2.jpg
+- thumbnail_Peter headshots – 00188 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/01/thumbnail_Peter-headshots-00188.jpg
+- backdrop_ampf_page_judiciary_2-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2024/01/backdrop_ampf_page_judiciary_2-1.jpg
+- IMG_1887 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/11/IMG_1887-scaled.jpg
+- Mortimer CJ – Sir Buri Kidu lecture (2023) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/11/Mortimer-CJ-Sir-Buri-Kidu-lecture-2023.pdf
+- Pictorial_Chief-Justice-Mortimer_page-0001 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/11/Pictorial_Chief-Justice-Mortimer_page-0001.jpg
+- AntiCorruption1B-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/10/AntiCorruption1B-1.jpg
+- AntiCorruption1B | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/10/AntiCorruption1B.jpg
+- AntiCorruption1A-1 | image/gif | https://pngcje.gov.pg/wp-content/uploads/2023/10/AntiCorruption1A-1.gif
+- AntiCorruption2A-2 | image/gif | https://pngcje.gov.pg/wp-content/uploads/2023/10/AntiCorruption2A-2.gif
+- AntiCorruption2A-1 | image/gif | https://pngcje.gov.pg/wp-content/uploads/2023/10/AntiCorruption2A-1-edited.gif
+- AntiCorruption2A-1 | image/gif | https://pngcje.gov.pg/wp-content/uploads/2023/10/AntiCorruption2A-1.gif
+- AntiCorruption2A | image/gif | https://pngcje.gov.pg/wp-content/uploads/2023/10/AntiCorruption2A.gif
+- AntiCorruption1A | image/gif | https://pngcje.gov.pg/wp-content/uploads/2023/10/AntiCorruption1A.gif
+- AntiCorruption1 | image/gif | https://pngcje.gov.pg/wp-content/uploads/2023/10/AntiCorruption1.gif
+- Chief-Justice-Mortimers-Lecture-visit1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/10/Chief-Justice-Mortimers-Lecture-visit1-scaled.jpg
+- PNGCJE_THIRD NEWS LETTER | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/10/PNGCJE_THIRD-NEWS-LETTER-.pdf
+- Screen Shot 2023-10-16 at 11.09.09 am | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/10/Screen-Shot-2023-10-16-at-11.09.09-am.png
+- Copy of Black and Orange Simple Dots Internet Solution Flyer (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/10/Copy-of-Black-and-Orange-Simple-Dots-Internet-Solution-Flyer-1.jpg
+- Photo – Mortimer CJ | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/10/Photo-Mortimer-CJ--scaled.jpg
+- Copy of Black and Orange Simple Dots Internet Solution Flyer (1) | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/10/Copy-of-Black-and-Orange-Simple-Dots-Internet-Solution-Flyer-1.png
+- 22-24-July-2024 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/10/22-24-July-2024.png
+- IMG_0406-3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/08/IMG_0406-3-scaled.jpg
+- IMG_0406-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/08/IMG_0406-1-scaled.jpg
+- IMG_0406 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/08/IMG_0406-scaled.jpg
+- Anti-money-Laundering-and-Counter-Terrorism-Finance-Training-for-Judges | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/08/Anti-money-Laundering-and-Counter-Terrorism-Finance-Training-for-Judges.jpg
+- PNGCJE_12 PAGES NEWS LETTER (1) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/08/PNGCJE_12-PAGES-NEWS-LETTER-1.pdf
+- PNGCJE_12 PAGES NEWS LETTER | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/08/PNGCJE_12-PAGES-NEWS-LETTER-.pdf
+- Screen Shot 2023-07-10 at 10.14.18 AM | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/08/Screen-Shot-2023-07-10-at-10.14.18-AM.png
+- IMG-20230802-WA0045-3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/08/IMG-20230802-WA0045-3.jpg
+- IMG_9264 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/08/IMG_9264-scaled.jpg
+- National_emblem_of_Papua_New_Guinea.svg-1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/08/National_emblem_of_Papua_New_Guinea.svg-1.png
+- PNGCJE_logo-1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/08/PNGCJE_logo-1.png
+- njs_logo-removebg-preview | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/08/njs_logo-removebg-preview.png
+- ADBlogo-removebg-preview | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/08/ADBlogo-removebg-preview.png
+- APMF-logo2-removebg-preview-1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/08/APMF-logo2-removebg-preview-1.png
+- APMF-logo2-removebg-preview | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/08/APMF-logo2-removebg-preview.png
+- Brown Modern Business Conference Flyer | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/08/Brown-Modern-Business-Conference-Flyer.png
+- gesi2 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/08/gesi2.png
+- gesi1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/08/gesi1.png
+- Justice Dr. John Carey | video/mp4 | https://pngcje.gov.pg/wp-content/uploads/2023/07/Justice-Dr.-John-Carey.mp4
+- Pictorial_Justice-Carey_pages-to-jpg-0001 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/07/Pictorial_Justice-Carey_pages-to-jpg-0001.jpg
+- Pictorial_Justice Carey | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/07/Pictorial_Justice-Carey-1.pdf
+- Pictorial_Justice Carey | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/07/Pictorial_Justice-Carey.pdf
+- Mendi | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/07/Mendi.jpg
+- JD_18X4_NJSS PV EXECUTIVE_WJ | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/07/JD_18X4_NJSS-PV-EXECUTIVE_WJ.pdf
+- Picture-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/06/Picture-1.jpg
+- Picture | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/06/Picture.jpg
+- PICTORIAL-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/06/PICTORIAL-1-scaled.jpg
+- PICTORIAL | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/06/PICTORIAL-scaled.jpg
+- Sir Buri Kidu Lecture Final | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/05/Sir-Buri-Kidu-Lecture-Final-1.pdf
+- Sir Buri Kidu Lecture Final | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/05/Sir-Buri-Kidu-Lecture-Final.pdf
+- IMG_6972-2-3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/05/IMG_6972-2-3-scaled.jpg
+- IMG_6972-2-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/05/IMG_6972-2-2-edited-scaled.jpg
+- IMG_6972-2-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/05/IMG_6972-2-2-scaled.jpg
+- IMG_6972-2-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/05/IMG_6972-2-1-scaled.jpg
+- IMG_6972-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/05/IMG_6972-2-edited-scaled.jpg
+- IMG_6972-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/05/IMG_6972-2-scaled.jpg
+- IMG_6705 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/05/IMG_6705-scaled.jpg
+- image-1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/05/image-1.png
+- image | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/05/image.png
+- Mr David Gonol | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/05/Mr-David-Gonol-scaled.jpg
+- Customary Law in PNG and the Lessons for the Pacific.pdf | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/05/Customary-Law-in-PNG-and-the-Lessons-for-the-Pacific.pdf.pdf
+- Papua New Guinea Centre for Judicial Excellence and The University of Papua New Guinea are proud to announce the 2023 (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/05/Papua-New-Guinea-Centre-for-Judicial-Excellence-and-The-University-of-Papua-New-Guinea-are-proud-to-announce-the-2023-1-scaled.jpg
+- PNGCJE_Newsletter | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/04/PNGCJE_Newsletter.pdf
+- Screen Shot 2023-04-25 at 11.32.41 AM | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-11.32.41-AM.png
+- IMG_6678 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/04/IMG_6678-1-scaled.jpg
+- IMG_6678 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/04/IMG_6678-scaled.jpg
+- image (1) | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/04/image-1.png
+- Picture-1-4 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/04/Picture-1-4.png
+- Picture-1-3 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/04/Picture-1-3.png
+- Picture-1-2 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/04/Picture-1-2.png
+- Picture-1-1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/04/Picture-1-1.png
+- Picture-1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/04/Picture-1.png
+- Picture-2 | image/png | https://pngcje.gov.pg/wp-content/uploads/2023/04/Picture-2.png
+- IMG_6256-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/04/IMG_6256-1-scaled.jpg
+- IMG_6256 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/04/IMG_6256-scaled.jpg
+- IMG_6262 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/04/IMG_6262-scaled.jpg
+- IMG_6240 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/04/IMG_6240-scaled.jpg
+- IMG_6341 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/03/IMG_6341.jpg
+- Revenue Law and Practice in Papua New Guinea.FINAL FOR RELEASE.23FEB23.docx | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/02/Revenue-Law-and-Practice-in-Papua-New-Guinea.FINAL-FOR-RELEASE.23FEB23.docx.pdf
+- Revenue Law and Practice in Papua New Guinea.FINAL | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/02/Revenue-Law-and-Practice-in-Papua-New-Guinea.FINAL_.pdf
+- AR REPORT FINAL | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/02/AR-REPORT-FINAL.pdf
+- PNG Supreme Court & National Court Case Notes (2017) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2023/02/PNG-Supreme-Court-National-Court-Case-Notes-2017.pdf
+- IMG-20230209-WA0011 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/IMG-20230209-WA0011.jpg
+- IMG-20230209-WA0006 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/IMG-20230209-WA0006.jpg
+- IMG_5767-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/02/IMG_5767-1-scaled.jpg
+- IMG_5790-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/02/IMG_5790-1-scaled.jpg
+- IMG_5790 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/02/IMG_5790-scaled.jpg
+- IMG_5767 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2023/02/IMG_5767-scaled.jpg
+- Participants-during-the-workshop-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/12/Participants-during-the-workshop-1-scaled.jpg
+- Participants-during-the-workshop | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/12/Participants-during-the-workshop-scaled.jpg
+- Group-photo-Judicial-Officers | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/12/Group-photo-Judicial-Officers-scaled.jpg
+- Facilitators | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/12/Facilitators-scaled.jpg
+- Bi-Annual_PNGCJE (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/10/Bi-Annual_PNGCJE-2.jpg
+- PNGCJE UPDATES Bi-Annual Newsletter – Volume 4, Issue 1. 2022 (1) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/10/PNGCJE-UPDATES-Bi-Annual-Newsletter-Volume-4-Issue-1.-2022-1-1.pdf
+- (untitled) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/10/newsletterAnnual-1.jpg
+- (untitled) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/10/newsletterAnnual.jpg
+- PNGCJE UPDATES Bi-Annual Newsletter – Volume 4, Issue 1. 2022 (1) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/10/PNGCJE-UPDATES-Bi-Annual-Newsletter-Volume-4-Issue-1.-2022-1.pdf
+- Do We Learn the art of judging through osmosis or judicial education | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2022/09/Do-We-Learn-the-art-of-judging-through-osmosis-or-judicial-education-1.docx
+- Do We Learn the art of judging through osmosis or judicial education | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2022/09/Do-We-Learn-the-art-of-judging-through-osmosis-or-judicial-education.docx
+- Digital Footprints | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2022/09/Digital-Footprints.docx
+- Role of Judge | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2022/08/Role-of-Judge.docx
+- Need for JE | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2022/08/Need-for-JE.docx
+- Politicians and lawyers | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2022/08/Politicians-and-lawyers.docx
+- 111 | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/111.png
+- 79383198_587134605191285_3858880059343372288_n | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/79383198_587134605191285_3858880059343372288_n.jpg
+- Picture3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/Picture3.jpg
+- cropped-logo_left_img-2.png | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/06/cropped-logo_left_img-2.png
+- IMG_7874 (1) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_7874-1-scaled.jpg
+- discussion | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/discussion-scaled.jpg
+- EP 5 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/EP-5-scaled.jpg
+- IMG_0401 (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_0401-2-scaled.jpg
+- Lyanne | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/Lyanne.png
+- Olivia | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/Olivia.png
+- Jessica | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/Jessica.png
+- IMG_0409 (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_0409-2-scaled.jpg
+- Harry | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/Harry.png
+- Gideon | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/Gideon.png
+- IMG_0310 (3) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_0310-3-scaled.jpg
+- IMG_0371 (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_0371-2-scaled.jpg
+- IMG_1038 (2) | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_1038-2.png
+- IMG_0489 (3) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_0489-3-scaled.jpg
+- Susie 2 | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/Susie-2.png
+- IMG_0342 (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_0342-2-scaled.jpg
+- IMG_0352 (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_0352-2-scaled.jpg
+- Arabella | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/Arabella.png
+- IMG_0394 (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_0394-2-scaled.jpg
+- Barry | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/Barry.png
+- Gitu | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/08/Gitu.png
+- IMG_0349 (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/08/IMG_0349-2-scaled.jpg
+- IMG_0286 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/07/IMG_0286-scaled.jpg
+- IMG_0279 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/07/IMG_0279-scaled.jpg
+- IMG_0105 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/07/IMG_0105-scaled.jpg
+- IMG_0095 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/07/IMG_0095-scaled.jpg
+- IMG_0033 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/07/IMG_0033-scaled.jpg
+- IMG_0021 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/07/IMG_0021-scaled.jpg
+- position_vacant | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/07/position_vacant.pdf
+- Profile Picture | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/07/Profile-Picture-e1659418315147.png
+- Lecture-Pic-3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/07/Lecture-Pic-3-scaled.jpg
+- Lecture-Pic-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/07/Lecture-Pic-1-scaled.jpg
+- Group-Photo | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/06/Group-Photo-scaled.jpg
+- discussion | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/06/discussion-scaled.jpg
+- thumbnail_IMG-20220607-WA0004-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/06/thumbnail_IMG-20220607-WA0004-1.jpg
+- IMG-20220607-WA0000 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/06/IMG-20220607-WA0000.jpg
+- thumbnail_IMG-20220607-WA0004 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/06/thumbnail_IMG-20220607-WA0004.jpg
+- IMG-20220516-WA0013-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/06/IMG-20220516-WA0013-1.jpg
+- IMG-20220516-WA0013 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/06/IMG-20220516-WA0013.jpg
+- FLYER | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/06/FLYER.jpg
+- Flyer -Sir Buri Kidu Lecture Series 01.06.22 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/06/Flyer-Sir-Buri-Kidu-Lecture-Series-01.06.22.pdf
+- TEST2 | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/04/TEST2.png
+- testwebsite | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/04/testwebsite.png
+- WEBSITE FLYER | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/04/WEBSITE-FLYER.pdf
+- cropped-logo_left_img-1.png | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/06/cropped-logo_left_img-1.png
+- cropped-logo_left_img.png | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/06/cropped-logo_left_img.png
+- 5-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/03/5-1-scaled.jpg
+- 4-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/03/4-1-scaled.jpg
+- 5 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/03/5-scaled.jpg
+- 4 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/03/4-scaled.jpg
+- 3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/03/3-scaled.jpg
+- 2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/03/2-scaled.jpg
+- cut | image/png | https://pngcje.gov.pg/wp-content/uploads/2022/03/cut-e1648532648214.png
+- GESI | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/03/GESI.pdf
+- 2019 Lecture Series Speech | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/03/2019-Lecture-Series-Speech.pdf
+- 2022-Lecture-Series-Speeh-1 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/03/2022-Lecture-Series-Speeh-1.pdf
+- 2018-Lecture-Series-Speech-2 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/03/2018-Lecture-Series-Speech-2.pdf
+- 2015-Lecture-Series-Speech-1 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/03/2015-Lecture-Series-Speech-1.pdf
+- 2015-Lecture-Series-Speech | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/03/2015-Lecture-Series-Speech.pdf
+- Newsletter – Transition Updates | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2022/03/Newsletter-Transition-Updates.pdf
+- Transition Update | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/03/Transition-Update.jpg
+- Photo-3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/03/Photo-3-scaled.jpg
+- Photo-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/03/Photo-2-scaled.jpg
+- Photo-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/03/Photo-1-scaled.jpg
+- Picture4 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/02/Picture4.jpg
+- Picture3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/02/Picture3.jpg
+- Picture2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2022/02/Picture2.jpg
+- profile+blank | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2020/02/profileblank.jpg
+- Mr.Carey (2) | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2019/11/Mr.Carey-2.jpg
+- Mr.Carey | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2019/11/Mr.Carey_.jpg
+- Zoom Training for the Village Court Secretariat Staff | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Zoom-Training-for-the-Village-Court-Secretariat-Staff.pdf
+- Training of Trainers (TOT) Workshop (Online) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Training-of-Trainers-TOT-Workshop-Online.pdf
+- Seminar on Prioritizing Tasks | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Seminar-on-Prioritizing-Tasks.pdf
+- Rule of Law, Protection of the Law & Role of Lawyers Webinar Report | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Rule-of-Law-Protection-of-the-Law-Role-of-Lawyers-Webinar-Report.pdf
+- Revised 2021 Training Report – JCM | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2021/12/Revised-2021-Training-Report-JCM.docx
+- Report on Judicial Orientation – Magistrates | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Report-on-Judicial-Orientation-Magistrates.pdf
+- PNG Sentencing Database Workshop | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/PNG-Sentencing-Database-Workshop.pdf
+- Management Skills for Administrative Professionals | application/vnd.openxmlformats-officedocument.wordprocessingml.document | https://pngcje.gov.pg/wp-content/uploads/2021/12/Management-Skills-for-Administrative-Professionals.docx
+- Judicial Ethics (Webinar) Report | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Judicial-Ethics-Webinar-Report.pdf
+- Habeas Corpus (Webinar) Report | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Habeas-Corpus-Webinar-Report.pdf
+- Fundamentals of Justice Training Report – PJSI | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Fundamentals-of-Justice-Training-Report-PJSI.pdf
+- Financial Literacy Training – Wabag | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Financial-Literacy-Training-–-Wabag.pdf
+- Financial Literacy Training – NJSS Staff (Waigani) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Financial-Literacy-Training-NJSS-Staff-Waigani.pdf
+- Financial Literacy Training – Mt Hagen | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Financial-Literacy-Training-Mt-Hagen.pdf
+- Financial Literacy Training – Lae | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Financial-Literacy-Training-Lae.pdf
+- Financial Literacy Training – Kundiawa | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Financial-Literacy-Training-Kundiawa.pdf
+- Financial Literacy Training – Kerema | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Financial-Literacy-Training-Kerema.pdf
+- Financial Literacy Training – Goroka | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Financial-Literacy-Training-Goroka.pdf
+- Economic Duress (Webinar) Report | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Economic-Duress-Webinar-Report.pdf
+- Cybercrime & Electronic Evidence Training (Webinar) – Judges | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Cybercrime-Electronic-Evidence-Training-Webinar-Judges.pdf
+- Customer Service Training – Lae & Mt. Hagen | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Customer-Service-Training-–-Lae-Mt.-Hagen.pdf
+- Conducting Voir Dire Hearing (Webinar) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Conducting-Voir-Dire-Hearing-Webinar.pdf
+- Community Awareness Program by PNGCJE – Report | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Community-Awareness-Program-by-PNGCJE-Report.pdf
+- Artificial Intellegence (Webinar) Report | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Artificial-Intellegence-Webinar-Report.pdf
+- Anti Money Laundering (Webinar) Report | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/12/Anti-Money-Laundering-Webinar-Report.pdf
+- IMG_7375 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/IMG_7375-scaled.jpg
+- IMG_6854-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/IMG_6854-2-scaled.jpg
+- IMG_6856-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/IMG_6856-2-scaled.jpg
+- IMG_6854-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/IMG_6854-1-scaled.jpg
+- IMG_6854 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/IMG_6854-scaled.jpg
+- IMG_6856-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/IMG_6856-1-scaled.jpg
+- IMG_6856 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/IMG_6856-scaled.jpg
+- Photo-3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/Photo-3-scaled.jpg
+- Photo-1-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/Photo-1-1-scaled.jpg
+- Photo-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/Photo-1-scaled.jpg
+- Photo-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/11/Photo-2-scaled.jpg
+- Capture | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/10/Capture.jpg
+- PNGCJE UPDATES Quarterly Newsletter – Volume 3, Issue 3. 2021 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/10/PNGCJE-UPDATES-Quarterly-Newsletter-Volume-3-Issue-3.-2021.pdf
+- VOL 3, Issue 3 2021 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/10/VOL-3-Issue-3-2021.jpg
+- 1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/10/1-1.jpg
+- 1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/10/1.jpg
+- 2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/10/2.jpg
+- WEBSITE-POPUP | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/09/WEBSITE-POPUP-1.png
+- ToT-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/09/ToT-1-scaled.jpg
+- ToT-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/09/ToT-2-scaled.jpg
+- WEBSITE-POPUP | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/09/WEBSITE-POPUP.png
+- IMG-20210830-WA0023 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/09/IMG-20210830-WA0023.jpg
+- Vabukori 2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Vabukori-2-scaled.jpg
+- Vabukori 3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Vabukori-3-scaled.jpg
+- Vabukori 4 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Vabukori-4-scaled.jpg
+- Vabukori 1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Vabukori-1-scaled.jpg
+- FinancePic | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/FinancePic.jpg
+- Flyer1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/08/Flyer1.png
+- Sogeri-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Sogeri-2-scaled.jpg
+- Sogeri-1-3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Sogeri-1-3-scaled.jpg
+- Sogeri-1-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Sogeri-1-2-scaled.jpg
+- Sogeri-1-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Sogeri-1-1-scaled.jpg
+- Sogeri-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Sogeri-1-scaled.jpg
+- Tatana-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Tatana-2-scaled.jpg
+- Tatana-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Tatana-1-scaled.jpg
+- Koki-3 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Koki-3-scaled.jpg
+- Koki-2-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Koki-2-2-scaled.jpg
+- Koki-1-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Koki-1-1-scaled.jpg
+- Koki-2-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Koki-2-1-scaled.jpg
+- Koki-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Koki-2-scaled.jpg
+- Koki-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Koki-1-scaled.jpg
+- PNGCJE Updates Vol1 Issue1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/PNGCJE-Updates-Vol1-Issue1.jpg
+- PNGCJE Updates Vol2 Issue1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/PNGCJE-Updates-Vol2-Issue1.jpg
+- PNGCJE UPDATES VOL2 ISSUE2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/PNGCJE-UPDATES-VOL2-ISSUE2.jpg
+- PNGCJE Updates Vol2 Issue4 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/PNGCJE-Updates-Vol2-Issue4.jpg
+- PNGCJE Updates Vol3 Issue1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/PNGCJE-Updates-Vol3-Issue1.jpg
+- PNGCJE SPECIAL EDITION | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/PNGCJE-SPECIAL-EDITION.jpg
+- Quarterly Newsletter, VOL 3, ISSUE 2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/08/Quarterly-Newsletter-VOL-3-ISSUE-2.jpg
+- 1200px-National_Emblem_of_Papua_New_Guinea.svg | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/07/1200px-National_Emblem_of_Papua_New_Guinea.svg_.png
+- Lessons Learnt & Challenges in Papua New Guinea | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/07/Lessons-Learnt-Challenges-in-Papua-New-Guinea-1.pdf
+- Customary Law.309kb | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/07/Customary-Law.309kb.pdf
+- Customary Law | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/07/Customary-Law-scaled.jpg
+- Lessons Learnt & Challenges in Papua New Guinea | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/07/Lessons-Learnt-Challenges-in-Papua-New-Guinea.pdf
+- Human Trafficking_CLICKABLE LINK | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/07/Human-Trafficking_CLICKABLE-LINK.pdf
+- Financial-Lit-2-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/07/Financial-Lit-2-2-scaled.jpg
+- Financial-Lit-2-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/07/Financial-Lit-2-1-scaled.jpg
+- Financial-Lit-2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/07/Financial-Lit-2-scaled.jpg
+- Financial-Lit-1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/07/Financial-Lit-1-scaled.jpg
+- Quarterly Newsletter, VOL 1, ISSUE 2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/07/Quarterly-Newsletter-VOL-1-ISSUE-2.jpg
+- PNGCJE UPDATES Quarterly Newsletter – Issue 2. 2021 | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/07/PNGCJE-UPDATES-Quarterly-Newsletter-Issue-2.-2021.pdf
+- Untitled-1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/07/Untitled-1.png
+- Picture2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/06/Picture2.jpg
+- GESI PIC 1 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/06/GESI-PIC-1-scaled.jpg
+- GESI PIC 2 | image/jpeg | https://pngcje.gov.pg/wp-content/uploads/2021/06/GESI-PIC-2-scaled.jpg
+- PNGCJE SPECIAL EDITION NEWSLETTER May 2021 (2) | application/pdf | https://pngcje.gov.pg/wp-content/uploads/2021/06/PNGCJE-SPECIAL-EDITION-NEWSLETTER-May-2021-2.pdf
+- Untitled-1 | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/06/Untitled-1.png
+- zoom-zoom-zoom-cloud-meetings-hd-png-download-640×640-zoom-png-840_683 | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/06/zoom-zoom-zoom-cloud-meetings-hd-png-download-640x640-zoom-png-840_683.png
+- Stacey-Profile-Pic-1 | image/gif | https://pngcje.gov.pg/wp-content/uploads/2021/06/Stacey-Profile-Pic-1.gif
+- logo_left_img | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/06/logo_left_img.png
+- 421-4213063_logo-png-logo-zoom-zoom-us-logo-png | image/png | https://pngcje.gov.pg/wp-content/uploads/2021/06/421-4213063_logo-png-logo-zoom-zoom-us-logo-png.png
