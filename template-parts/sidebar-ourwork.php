@@ -48,7 +48,7 @@ $ourwork_links = [
         <div style="font-size:2rem;margin-bottom:.75rem;">🎓</div>
         <h3 style="color:#fff;font-size:var(--size-base);margin-bottom:.5rem;">Access LMS Portal</h3>
         <p style="color:rgba(255,255,255,.75);font-size:.8rem;line-height:1.6;margin-bottom:1.25rem;">Online training programs available through the PICCJE Learning Management System.</p>
-        <a href="https://piccje.csod.com/login/render.aspx?id=defaultclp"
+        <a href="https://learn.pngcje.gov.pg"
            class="btn btn-gold"
            style="width:100%;justify-content:center;"
            target="_blank" rel="noopener noreferrer">

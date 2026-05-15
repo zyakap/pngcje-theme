@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node -e \"require\\('docx'\\); console.log\\('docx ok'\\)\")",
+      "Bash(NODE_PATH=/usr/local/Cellar/node/19.3.0/lib/node_modules node gen-docs.js)"
+    ]
+  }
+}

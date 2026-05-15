@@ -197,7 +197,7 @@ if ( empty( $hero_slides ) ) {
                 ['⚖️','Case Notes', pngcje_get_resource_type_url( 'case-notes' ), false ],
                 ['🎓','CPD Lectures', pngcje_get_resource_type_url( 'cpd-lectures' ), false ],
                 ['📅','Training Calendar',home_url('/training-calendar/'),false],
-                ['🖥️','Access LMS','https://piccje.csod.com/login/render.aspx?id=defaultclp',true],
+                ['🎓','Access LMS','https://learn.pngcje.gov.pg',true],
                 ['📊','Annual Reports',home_url('/prospectus/annual-reports/'),false],
                 ['📰','Newsletters',home_url('/newsletters/'),false],
                 ['🎤','ED Speeches', pngcje_get_resource_type_url( 'executive-director-speeches' ), false ],
@@ -297,32 +297,6 @@ if ( empty( $hero_slides ) ) {
             <?php foreach(['Commonwealth Judicial Education Institute (CJEI), Canada','Judicial Commission of New South Wales','Pacific Judicial Strengthening Initiative (PJSI)','National Judicial College of Australia (NJCA)','Institute of Judicial Studies New Zealand (IJS)','UK Judicial College'] as $p): ?>
             <div style="background:var(--ember-subtle);border:1.5px solid rgba(212,88,26,.2);border-radius:var(--radius-md);padding:.65rem 1.25rem;font-size:.8rem;font-weight:600;color:var(--ember-deep);"><?php echo esc_html($p); ?></div>
             <?php endforeach; ?>
-        </div>
-    </div>
-</section>
-
-<!-- PACIFIC CALLOUT -->
-<section class="pacific-section section">
-    <div class="container" style="position:relative;z-index:1;">
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;">
-            <div class="reveal">
-                <div class="pacific-badge">🌊 Pacific Initiative</div>
-                <h2 class="section-title" style="color:var(--white);">Pacific Islands Centre for Judicial Excellence</h2>
-                <div class="divider"></div>
-                <p style="color:rgba(255,255,255,.72);line-height:1.9;margin-bottom:1.5rem;">The Pacific Island Countries Centre for Judicial Excellence (PICCJE) was formed from the amalgamation of activities under the PNGCJE and the growing need for judicial education and training programs across the Pacific Islands region.</p>
-                <p style="color:rgba(255,255,255,.72);line-height:1.9;margin-bottom:2rem;">Member countries include Cook Islands, Fiji, Federated States of Micronesia, Kiribati, Marshall Islands, Nauru, Niue, Palau, Samoa, Solomon Islands, Tokelau, Tonga, Tuvalu and Vanuatu.</p>
-                <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-                    <a href="<?php echo esc_url(home_url('/pacific-island-centre-for-judicial-excellence/')); ?>" class="btn btn-primary btn-arrow">Explore PICCJE</a>
-                    <a href="https://piccje.csod.com/login/render.aspx?id=defaultclp" class="btn btn-gold" target="_blank" rel="noopener noreferrer">Access LMS</a>
-                </div>
-            </div>
-            <div class="reveal reveal-delay-2">
-                <div class="pacific-members-grid" style="grid-template-columns:repeat(4,1fr);">
-                    <?php foreach([['🇵🇬','PNG'],['🇫🇯','Fiji'],['🇸🇧','Solomons'],['🇻🇺','Vanuatu'],['🇼🇸','Samoa'],['🇹🇴','Tonga'],['🇰🇮','Kiribati'],['🇳🇷','Nauru'],['🇨🇰','Cook Is.'],['🇵🇼','Palau'],['🇫🇲','Micronesia'],['🇲🇭','Marshall Is.'],['🇹🇻','Tuvalu'],['🇳🇺','Niue']] as $pm): $f=$pm[0]; $n=$pm[1]; ?>
-                    <div class="pacific-member-card"><div class="pacific-member-card__flag"><?php echo esc_html($f); ?></div><div class="pacific-member-card__name"><?php echo esc_html($n); ?></div></div>
-                    <?php endforeach; ?>
-                </div>
-            </div>
         </div>
     </div>
 </section>

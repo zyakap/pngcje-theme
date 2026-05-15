@@ -106,7 +106,7 @@ get_header(); ?>
                     <h2 style="font-size:var(--size-2xl);font-weight:900;color:var(--white);margin-bottom:.5rem;">Access the PICCJE Learning Portal</h2>
                     <p style="color:rgba(255,255,255,.65);font-size:.95rem;">Complete online training programs for Pacific judicial officers through the LMS platform.</p>
                 </div>
-                <a href="https://piccje.csod.com/login/render.aspx?id=defaultclp" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+                <a href="https://learn.pngcje.gov.pg" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
                     Access LMS Portal →
                 </a>
             </div>

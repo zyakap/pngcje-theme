@@ -102,14 +102,15 @@
 
                     <!-- LMS CTA — Prominent Gold Button -->
                     <a
-                        href="https://piccje.csod.com/login/render.aspx?id=defaultclp"
+                        href="https://learn.pngcje.gov.pg"
                         class="btn btn-lms" style="background:var(--ember-primary);border-color:var(--ember-primary);"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="<?php esc_attr_e( 'Access Learning Management System (opens in new tab)', 'pngcje' ); ?>"
                     >
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.31h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8 9a16 16 0 0 0 6 6l.85-.85a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.5 16"/>
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                            <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"/>
                         </svg>
                         <?php esc_html_e( 'Access LMS', 'pngcje' ); ?>
                     </a>
@@ -205,7 +206,7 @@
 
     <div class="mobile-nav-drawer__lms">
         <a
-            href="https://piccje.csod.com/login/render.aspx?id=defaultclp"
+            href="https://learn.pngcje.gov.pg"
             class="btn btn-gold btn-lg"
             style="width:100%;justify-content:center;"
             target="_blank"

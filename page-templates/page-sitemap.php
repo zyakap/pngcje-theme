@@ -83,7 +83,7 @@ get_header(); ?>
                 [
                     'icon'  => '🎓',
                     'title' => 'LMS Portal',
-                    'url'   => 'https://piccje.csod.com/login/render.aspx?id=defaultclp',
+                    'url'   => 'https://learn.pngcje.gov.pg',
                     'links' => [],
                     'ext'   => true,
                 ],

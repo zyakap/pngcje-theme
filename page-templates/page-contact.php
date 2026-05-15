@@ -40,7 +40,7 @@ get_header(); ?>
         <div>
             <div style="width:40px;height:2px;background:rgba(255,255,255,.2);margin-bottom:1.25rem;"></div>
             <p style="color:rgba(255,255,255,.5);font-size:.825rem;margin-bottom:1rem;">Need to access the learning portal?</p>
-            <a href="https://piccje.csod.com/login/render.aspx?id=defaultclp" class="btn btn-gold" target="_blank" rel="noopener noreferrer">Access LMS Portal</a>
+            <a href="https://learn.pngcje.gov.pg" class="btn btn-gold" target="_blank" rel="noopener noreferrer">Access LMS Portal</a>
         </div>
         <!-- Partner links -->
         <div>
