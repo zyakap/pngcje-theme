@@ -3,7 +3,21 @@
     "allow": [
       "Bash(npm install *)",
       "Bash(node -e \"require\\('docx'\\); console.log\\('docx ok'\\)\")",
-      "Bash(NODE_PATH=/usr/local/Cellar/node/19.3.0/lib/node_modules node gen-docs.js)"
+      "Bash(NODE_PATH=/usr/local/Cellar/node/19.3.0/lib/node_modules node gen-docs.js)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git config *)",
+      "Bash(gh pr create --title 'Redesign newsletter listing: 4-column grid with natural-aspect thumbnails' --body ' *)",
+      "Bash(brew list *)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(/opt/homebrew/bin/gh pr create --title 'Redesign newsletter listing: 4-column grid with natural-aspect thumbnails' --body ' *)",
+      "Bash(find /usr /opt /Users/zyakap -name \"gh\" -type f 2>/dev/null | head -5)",
+      "Bash(git remote *)",
+      "Bash(git -C \"/Users/zyakap/Documents/ZACQ INDUSTRIES/WEBMASTA/CLIENTS/PNGCJE/pngcje-theme/.claude/worktrees/blissful-benz-aff25f\" config --get credential.helper)",
+      "Read(//Users/zyakap/.config/gh/**)",
+      "Bash(security find-internet-password *)",
+      "Bash(env)"
     ]
   }
 }
