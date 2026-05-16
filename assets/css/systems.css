@@ -368,12 +368,9 @@ input[type="file"].pngcje-field-input {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-xl);
     width: min(var(--popup-width, 560px), 92vw);
-    max-height: 90vh;
-    overflow-y: auto;
     opacity: 0;
     visibility: hidden;
     transition: opacity var(--transition-slow), visibility var(--transition-slow), transform var(--transition-slow);
-    scrollbar-width: thin;
 }
 .pngcje-popup.active {
     opacity: 1;
@@ -499,6 +496,12 @@ input[type="file"].pngcje-field-input {
     color: var(--green-dark);
     text-decoration: underline;
     text-underline-offset: 3px;
+}
+.pngcje-popup__text img,
+.pngcje-popup__text iframe,
+.pngcje-popup__text table {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Prevent body scroll when popup open */

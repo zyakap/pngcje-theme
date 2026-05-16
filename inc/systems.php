@@ -17,6 +17,7 @@ defined( 'ABSPATH' ) || exit;
 require_once PNGCJE_DIR . '/inc/forms/forms-core.php';
 require_once PNGCJE_DIR . '/inc/popups/popups-core.php';
 require_once PNGCJE_DIR . '/inc/events/events-core.php';
+require_once PNGCJE_DIR . '/inc/newsletters/newsletters-core.php';
 
 // ============================================================
 // ENQUEUE SYSTEMS CSS (frontend)

@@ -1,32 +1,20 @@
 <?php
-/**
- * Template Name: Newsletters
- * Refreshed hard-coded content for the PNGCJE redesign.
- */
 get_header();
-
-$paged = max( 1, get_query_var( 'paged' ), get_query_var( 'page' ) );
-$newsletters = new WP_Query( [
-    'post_type'      => 'pngcje_newsletter',
-    'post_status'    => 'publish',
-    'posts_per_page' => 12,
-    'paged'          => $paged,
-] );
 ?>
 
 <div <?php pngcje_page_hero_attrs(); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
         <h1 class="page-hero__title"><?php esc_html_e( 'Newsletters', 'pngcje' ); ?></h1>
-        <p class="page-hero__desc"><?php esc_html_e( 'Newsletters share program highlights, announcements and stories from PNGCJE training and outreach activities.', 'pngcje' ); ?></p>
+        <p class="page-hero__desc"><?php esc_html_e( 'Read the latest PNGCJE newsletters, updates and publications.', 'pngcje' ); ?></p>
     </div>
 </div>
 
 <section class="section">
     <div class="container">
-        <?php if ( $newsletters->have_posts() ) : ?>
+        <?php if ( have_posts() ) : ?>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;">
-            <?php while ( $newsletters->have_posts() ) : $newsletters->the_post();
+            <?php while ( have_posts() ) : the_post();
                 $downloads = function_exists( 'pngcje_newsletter_get_downloads' ) ? pngcje_newsletter_get_downloads( get_the_ID() ) : [];
             ?>
             <a href="<?php the_permalink(); ?>" class="card reveal" style="display:flex;flex-direction:column;text-decoration:none;overflow:hidden;">
@@ -52,18 +40,12 @@ $newsletters = new WP_Query( [
             <?php endwhile; ?>
         </div>
         <div style="margin-top:2rem;">
-            <?php
-            echo paginate_links( [
-                'total'   => $newsletters->max_num_pages,
-                'current' => $paged,
-            ] );
-            ?>
+            <?php the_posts_pagination(); ?>
         </div>
         <?php else : ?>
         <div class="card"><div class="card__body"><p style="margin:0;color:var(--ink-mid);"><?php esc_html_e( 'No newsletters have been published yet.', 'pngcje' ); ?></p></div></div>
-        <?php endif; wp_reset_postdata(); ?>
+        <?php endif; ?>
     </div>
 </section>
 
-<?php
-get_footer();
+<?php get_footer(); ?>

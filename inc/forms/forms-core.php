@@ -1236,6 +1236,7 @@ function pngcje_handle_form_submission() {
         update_post_meta($sub_id, '_pngcje_submitted_at', current_time('mysql'));
         update_post_meta($sub_id, '_pngcje_submitter_ip', function_exists('wp_privacy_anonymize_ip') ? wp_privacy_anonymize_ip($ip) : $ip);
         update_post_meta($sub_id, '_pngcje_page_url',     esc_url_raw($_POST['page_url'] ?? ''));
+        do_action( 'pngcje_form_submission_stored', $sub_id, $form_id, $data, $_POST );
     }
 
     // Build email body

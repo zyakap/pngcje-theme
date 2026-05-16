@@ -299,14 +299,24 @@ function pngcje_popup_preview_cb( $post ) {
     <p style="font-size:.85rem;color:#555;margin-bottom:1rem;">
         <?php esc_html_e('The popup content is edited in the main editor above. Use the full WordPress editor to add text, images, buttons, shortcodes and embedded forms.','pngcje'); ?>
     </p>
-    <div style="background:#f9f9f9;border:1px solid #ddd;border-radius:6px;padding:1.25rem;">
+    <div style="background:#f9f9f9;border:1px solid #ddd;border-radius:6px;padding:1.25rem;max-width:100%;overflow-x:auto;">
         <p style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#888;margin:0 0 .75rem;">
             <?php esc_html_e('Content Preview','pngcje'); ?>
         </p>
-        <div style="font-size:.875rem;color:#333;line-height:1.7;">
+        <div id="pngcje-popup-preview" style="font-size:.875rem;color:#333;line-height:1.7;overflow-wrap:break-word;word-wrap:break-word;">
             <?php echo wp_kses_post( apply_filters('the_content', $post->post_content) ); ?>
         </div>
     </div>
+    <style>
+        #pngcje-popup-preview img,
+        #pngcje-popup-preview iframe,
+        #pngcje-popup-preview table,
+        #pngcje-popup-preview video,
+        #pngcje-popup-preview embed {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
     <div style="margin-top:1rem;background:#fff8e1;border:1px solid #ffe082;border-radius:6px;padding:.75rem 1rem;font-size:.8rem;color:#666;">
         💡 <?php esc_html_e('You can embed a form inside a popup using:','pngcje'); ?>
         <code style="background:#fff;padding:.2rem .4rem;border-radius:3px;">[pngcje_form id="1"]</code>

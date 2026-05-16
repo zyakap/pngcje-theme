@@ -318,6 +318,7 @@ function pngcje_resource_type_map() {
         'judicial-handbook'            => [ 'label' => __( 'Judicial Handbook', 'pngcje' ), 'aliases' => [ 'judicial-handbook', 'handbook' ] ],
         'cpd-lectures'                 => [ 'label' => __( 'CPD Lectures', 'pngcje' ), 'aliases' => [ 'cpd-lectures', 'continuing-professional-development-lectures' ] ],
         'executive-director-speeches'  => [ 'label' => __( 'Executive Director Speeches', 'pngcje' ), 'aliases' => [ 'executive-director-speeches', 'ed-speeches', 'speeches' ] ],
+        'annual-reports'               => [ 'label' => __( 'Annual Reports', 'pngcje' ), 'aliases' => [ 'annual-reports' ] ],
         'prospectus'                   => [ 'label' => __( 'Prospectus', 'pngcje' ), 'aliases' => [ 'prospectus' ] ],
         'lecture-series'               => [ 'label' => __( 'Lecture Series', 'pngcje' ), 'aliases' => [ 'lecture-series' ] ],
         'customer-service'             => [ 'label' => __( 'Customer Service', 'pngcje' ), 'aliases' => [ 'customer-service' ] ],
@@ -507,6 +508,84 @@ function pngcje_redirect_legacy_resource_handbook_404() {
     exit;
 }
 add_action( 'template_redirect', 'pngcje_redirect_legacy_resource_handbook_404', 0 );
+
+function pngcje_annual_reports_admin_menu() {
+    add_menu_page(
+        __( 'Annual Reports', 'pngcje' ),
+        __( 'Annual Reports', 'pngcje' ),
+        'edit_posts',
+        'pngcje_annual_reports',
+        'pngcje_annual_reports_admin_redirect',
+        'dashicons-chart-area',
+        5
+    );
+
+    add_submenu_page(
+        'pngcje_annual_reports',
+        __( 'All Annual Reports', 'pngcje' ),
+        __( 'All Annual Reports', 'pngcje' ),
+        'edit_posts',
+        'pngcje_annual_reports',
+        'pngcje_annual_reports_admin_redirect'
+    );
+
+    add_submenu_page(
+        'pngcje_annual_reports',
+        __( 'Add New Annual Report', 'pngcje' ),
+        __( 'Add New Annual Report', 'pngcje' ),
+        'edit_posts',
+        'pngcje_add_annual_report',
+        'pngcje_add_annual_report_admin_redirect'
+    );
+}
+add_action( 'admin_menu', 'pngcje_annual_reports_admin_menu' );
+
+function pngcje_annual_reports_admin_redirect() {
+    wp_safe_redirect( admin_url( 'edit.php?post_type=pngcje_resource&resource_type=annual-reports' ) );
+    exit;
+}
+
+function pngcje_add_annual_report_admin_redirect() {
+    wp_safe_redirect( admin_url( 'post-new.php?post_type=pngcje_resource&pngcje_resource_type=annual-reports' ) );
+    exit;
+}
+
+function pngcje_default_new_annual_report_type( $post ) {
+    if ( 'pngcje_resource' !== $post->post_type ) {
+        return;
+    }
+
+    $resource_type = isset( $_GET['pngcje_resource_type'] ) ? sanitize_title( wp_unslash( $_GET['pngcje_resource_type'] ) ) : '';
+    if ( 'annual-reports' !== $resource_type ) {
+        return;
+    }
+    ?>
+    <input type="hidden" name="pngcje_default_resource_type" value="annual-reports">
+    <?php
+}
+add_action( 'edit_form_after_title', 'pngcje_default_new_annual_report_type' );
+
+function pngcje_save_default_resource_type( $post_id ) {
+    if ( ! isset( $_POST['pngcje_default_resource_type'] ) ) {
+        return;
+    }
+
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+        return;
+    }
+
+    if ( ! current_user_can( 'edit_post', $post_id ) ) {
+        return;
+    }
+
+    $resource_type = sanitize_title( wp_unslash( $_POST['pngcje_default_resource_type'] ) );
+    if ( 'annual-reports' !== $resource_type ) {
+        return;
+    }
+
+    wp_set_object_terms( $post_id, $resource_type, 'resource_type', false );
+}
+add_action( 'save_post_pngcje_resource', 'pngcje_save_default_resource_type' );
 
 // ============================================================
 // WIDGETS / SIDEBARS
@@ -930,12 +1009,15 @@ function pngcje_activate() {
     if ( function_exists( 'pngcje_events_register' ) ) {
         pngcje_events_register();
     }
+    if ( function_exists( 'pngcje_newsletters_register' ) ) {
+        pngcje_newsletters_register();
+    }
     flush_rewrite_rules();
 }
 add_action( 'after_switch_theme', 'pngcje_activate' );
 
 function pngcje_maybe_flush_rewrite_rules() {
-    $rewrite_version = '20260514_board_members';
+    $rewrite_version = '20260517_newsletters';
 
     if ( get_option( 'pngcje_rewrite_version' ) === $rewrite_version ) {
         return;

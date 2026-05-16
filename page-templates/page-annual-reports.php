@@ -11,6 +11,7 @@ $page_desc = "Annual reports provide transparency over PNGCJE programs, partners
 $page_sidebar = "ourwork";
 $page_resource_type = "annual-reports";
 $page_resource_label = "Annual Report Documents";
+$page_resource_layout = 'tiles';
 $page_sections = json_decode( <<<'JSON'
 [
   {
