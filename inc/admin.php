@@ -159,7 +159,7 @@ function pngcje_dashboard_widget_cb() {
             $counts = [
                 'Posts (News)'       => wp_count_posts('post')->publish,
                 'Resources'          => wp_count_posts('pngcje_resource')->publish,
-                'Staff Members'      => wp_count_posts('pngcje_staff')->publish,
+                'Staff Members'      => wp_count_posts('member')->publish,
                 'Board Members'      => wp_count_posts('pngcje_board_member')->publish,
                 'Pacific Members'    => wp_count_posts('pngcje_pacific')->publish,
                 'Events (TEC)'       => function_exists('tribe_get_events') ? wp_count_posts('tribe_events')->publish : 'Plugin inactive',

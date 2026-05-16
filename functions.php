@@ -187,7 +187,7 @@ function pngcje_register_post_types() {
     ] );
 
     // --- Staff ---
-    register_post_type( 'pngcje_staff', [
+    register_post_type( 'member', [
         'labels' => [
             'name'          => __( 'Staff Members', 'pngcje' ),
             'singular_name' => __( 'Staff Member',  'pngcje' ),
@@ -298,7 +298,7 @@ function pngcje_register_taxonomies() {
     ] );
 
     // Staff Department
-    register_taxonomy( 'department', 'pngcje_staff', [
+    register_taxonomy( 'department', 'member', [
         'labels' => [
             'name'          => __( 'Departments', 'pngcje' ),
             'singular_name' => __( 'Department',  'pngcje' ),

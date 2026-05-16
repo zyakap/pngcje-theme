@@ -40,7 +40,7 @@ get_header();
         <?php
         // Leadership first
         $leadership = new WP_Query( [
-            'post_type'      => 'pngcje_staff',
+            'post_type'      => 'member',
             'posts_per_page' => -1,
             'post_status'    => 'publish',
             'orderby'        => 'menu_order',
@@ -102,7 +102,7 @@ get_header();
         <?php
         // All other staff
         $all_staff = new WP_Query( [
-            'post_type'      => 'pngcje_staff',
+            'post_type'      => 'member',
             'posts_per_page' => -1,
             'post_status'    => 'publish',
             'orderby'        => 'menu_order',

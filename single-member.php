@@ -79,7 +79,7 @@ while ( have_posts() ) : the_post();
 
                     <?php
                     $related = new WP_Query( [
-                        'post_type'      => 'pngcje_staff',
+                        'post_type'      => 'member',
                         'posts_per_page' => 3,
                         'post_status'    => 'publish',
                         'post__not_in'   => [ get_the_ID() ],

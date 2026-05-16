@@ -65,7 +65,7 @@ $count = $wp_query->found_posts;
                                 'page'             => __( 'Page', 'pngcje' ),
                                 'pngcje_resource'  => __( 'Resource', 'pngcje' ),
                                 'tribe_events'     => __( 'Event', 'pngcje' ),
-                                'pngcje_staff'     => __( 'Staff', 'pngcje' ),
+                                'member'           => __( 'Staff', 'pngcje' ),
                             ];
                             $type_label = $type_labels[ $post_type ] ?? ucfirst( $post_type );
                           ?>

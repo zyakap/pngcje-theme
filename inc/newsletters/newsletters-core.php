@@ -143,13 +143,34 @@ function pngcje_newsletters_dashboard_page() {
 }
 
 function pngcje_newsletters_add_meta_boxes() {
+    add_meta_box( 'pngcje_newsletter_details', __( 'Newsletter Details', 'pngcje' ), 'pngcje_newsletter_details_meta_box', 'pngcje_newsletter', 'side', 'high' );
     add_meta_box( 'pngcje_newsletter_downloads', __( 'Newsletter Downloads', 'pngcje' ), 'pngcje_newsletter_downloads_meta_box', 'pngcje_newsletter', 'normal', 'default' );
     add_meta_box( 'pngcje_subscriber_details', __( 'Subscriber Details', 'pngcje' ), 'pngcje_subscriber_details_meta_box', 'pngcje_subscriber', 'normal', 'high' );
 }
 add_action( 'add_meta_boxes', 'pngcje_newsletters_add_meta_boxes' );
 
-function pngcje_newsletter_downloads_meta_box( $post ) {
+function pngcje_newsletter_details_meta_box( $post ) {
     wp_nonce_field( 'pngcje_newsletter_meta', 'pngcje_newsletter_meta_nonce' );
+    $year   = get_post_meta( $post->ID, '_pngcje_newsletter_year', true );
+    $issue  = get_post_meta( $post->ID, '_pngcje_newsletter_issue', true );
+    $volume = get_post_meta( $post->ID, '_pngcje_newsletter_volume', true );
+    ?>
+    <p>
+        <label for="pngcje_newsletter_year" style="display:block;font-weight:600;margin-bottom:4px;"><?php esc_html_e( 'Year', 'pngcje' ); ?></label>
+        <input type="number" id="pngcje_newsletter_year" name="pngcje_newsletter_year" value="<?php echo esc_attr( $year ); ?>" class="small-text" min="1900" max="2099" step="1">
+    </p>
+    <p>
+        <label for="pngcje_newsletter_issue" style="display:block;font-weight:600;margin-bottom:4px;"><?php esc_html_e( 'Issue Number', 'pngcje' ); ?></label>
+        <input type="number" id="pngcje_newsletter_issue" name="pngcje_newsletter_issue" value="<?php echo esc_attr( $issue ); ?>" class="small-text" min="1" step="1">
+    </p>
+    <p>
+        <label for="pngcje_newsletter_volume" style="display:block;font-weight:600;margin-bottom:4px;"><?php esc_html_e( 'Volume Number', 'pngcje' ); ?></label>
+        <input type="number" id="pngcje_newsletter_volume" name="pngcje_newsletter_volume" value="<?php echo esc_attr( $volume ); ?>" class="small-text" min="1" step="1">
+    </p>
+    <?php
+}
+
+function pngcje_newsletter_downloads_meta_box( $post ) {
     $downloads = pngcje_newsletter_get_downloads( $post->ID );
     $lines     = [];
 
@@ -191,6 +212,26 @@ function pngcje_newsletters_save_meta( $post_id, $post ) {
         }
         if ( ! current_user_can( 'edit_post', $post_id ) ) {
             return;
+        }
+
+        $year   = isset( $_POST['pngcje_newsletter_year'] ) ? (int) sanitize_text_field( wp_unslash( $_POST['pngcje_newsletter_year'] ) ) : 0;
+        $issue  = isset( $_POST['pngcje_newsletter_issue'] ) ? (int) sanitize_text_field( wp_unslash( $_POST['pngcje_newsletter_issue'] ) ) : 0;
+        $volume = isset( $_POST['pngcje_newsletter_volume'] ) ? (int) sanitize_text_field( wp_unslash( $_POST['pngcje_newsletter_volume'] ) ) : 0;
+
+        if ( $year > 0 ) {
+            update_post_meta( $post_id, '_pngcje_newsletter_year', $year );
+        } else {
+            delete_post_meta( $post_id, '_pngcje_newsletter_year' );
+        }
+        if ( $issue > 0 ) {
+            update_post_meta( $post_id, '_pngcje_newsletter_issue', $issue );
+        } else {
+            delete_post_meta( $post_id, '_pngcje_newsletter_issue' );
+        }
+        if ( $volume > 0 ) {
+            update_post_meta( $post_id, '_pngcje_newsletter_volume', $volume );
+        } else {
+            delete_post_meta( $post_id, '_pngcje_newsletter_volume' );
         }
 
         $raw       = sanitize_textarea_field( wp_unslash( $_POST['pngcje_newsletter_downloads_raw'] ?? '' ) );

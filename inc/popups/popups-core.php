@@ -233,6 +233,7 @@ function pngcje_popup_settings_cb( $post ) {
 function pngcje_popup_design_cb( $post ) {
     $s = wp_parse_args( get_post_meta($post->ID,'_pngcje_popup_design',true) ?: [], [
         'width'        => '560px',
+        'height'       => 'auto',
         'theme'        => 'default',
         'position'     => 'center',
         'overlay'      => '1',
@@ -246,6 +247,10 @@ function pngcje_popup_design_cb( $post ) {
         <tr>
             <td><label style="font-size:.78rem;font-weight:600;"><?php esc_html_e('Width','pngcje'); ?></label></td>
             <td><input type="text" name="pngcje_pd[width]" value="<?php echo esc_attr($s['width']); ?>" style="width:100%;font-size:.85rem;" placeholder="560px or 80vw"></td>
+        </tr>
+        <tr>
+            <td><label style="font-size:.78rem;font-weight:600;"><?php esc_html_e('Height','pngcje'); ?></label></td>
+            <td><input type="text" name="pngcje_pd[height]" value="<?php echo esc_attr($s['height']); ?>" style="width:100%;font-size:.85rem;" placeholder="auto, 400px or 60vh"></td>
         </tr>
         <tr>
             <td><label style="font-size:.78rem;font-weight:600;"><?php esc_html_e('Position','pngcje'); ?></label></td>
@@ -408,6 +413,7 @@ function pngcje_popups_output() {
         ]);
         $d = wp_parse_args( get_post_meta($popup->ID,'_pngcje_popup_design',true) ?: [], [
             'width'        => '560px',
+            'height'       => 'auto',
             'theme'        => 'default',
             'position'     => 'center',
             'overlay'      => '1',
@@ -468,7 +474,7 @@ function pngcje_popup_render_html( $popup, $s, $d ) {
         aria-modal="true"
         aria-label="<?php echo esc_attr(get_the_title($popup->ID)); ?>"
         aria-hidden="true"
-        style="--popup-width:<?php echo esc_attr($d['width']); ?>;"
+        style="--popup-width:<?php echo esc_attr($d['width']); ?>;<?php echo (!empty($d['height']) && strtolower($d['height']) !== 'auto') ? '--popup-height:' . esc_attr($d['height']) . ';' : ''; ?>"
         data-popup-id="<?php echo esc_attr($popup->ID); ?>"
     >
         <?php if (!empty($s['show_close'])) : ?>

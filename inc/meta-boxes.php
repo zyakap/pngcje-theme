@@ -251,7 +251,7 @@ function pngcje_staff_meta_box() {
         'pngcje_staff_details',
         __( 'Staff Member Details', 'pngcje' ),
         'pngcje_staff_meta_box_cb',
-        'pngcje_staff',
+        'member',
         'side',
         'high'
     );
@@ -333,7 +333,7 @@ function pngcje_save_staff_meta( $post_id ) {
         }
     }
 }
-add_action( 'save_post_pngcje_staff', 'pngcje_save_staff_meta' );
+add_action( 'save_post_member', 'pngcje_save_staff_meta' );
 
 // ============================================================
 // BOARD MEMBER META BOX
