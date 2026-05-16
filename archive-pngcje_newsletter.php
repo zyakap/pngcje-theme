@@ -13,17 +13,17 @@ get_header();
 <section class="section">
     <div class="container">
         <?php if ( have_posts() ) : ?>
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;">
+        <div class="grid grid-4" style="gap:1.5rem;">
             <?php while ( have_posts() ) : the_post();
                 $downloads = function_exists( 'pngcje_newsletter_get_downloads' ) ? pngcje_newsletter_get_downloads( get_the_ID() ) : [];
             ?>
             <a href="<?php the_permalink(); ?>" class="card reveal" style="display:flex;flex-direction:column;text-decoration:none;overflow:hidden;">
                 <?php if ( has_post_thumbnail() ) : ?>
-                <span class="card__media" style="aspect-ratio:4/3;overflow:hidden;background:var(--cream);">
-                    <?php echo get_the_post_thumbnail( get_the_ID(), 'pngcje-card', [ 'loading' => 'lazy', 'decoding' => 'async', 'alt' => esc_attr( wp_strip_all_tags( get_the_title() ) ) ] ); ?>
+                <span class="card__media" style="overflow:hidden;background:var(--cream);display:block;">
+                    <?php echo get_the_post_thumbnail( get_the_ID(), 'pngcje-card', [ 'loading' => 'lazy', 'decoding' => 'async', 'style' => 'width:100%;height:auto;display:block;', 'alt' => esc_attr( wp_strip_all_tags( get_the_title() ) ) ] ); ?>
                 </span>
                 <?php else : ?>
-                <span style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background:var(--cream);font-size:3rem;" aria-hidden="true">📰</span>
+                <span style="display:flex;align-items:center;justify-content:center;background:var(--cream);font-size:3rem;padding:2rem 0;" aria-hidden="true">📰</span>
                 <?php endif; ?>
                 <span class="card__body" style="display:flex;flex-direction:column;gap:.75rem;">
                     <span class="badge badge--gold" style="align-self:flex-start;"><?php echo esc_html( get_the_date() ); ?></span>
