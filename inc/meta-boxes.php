@@ -452,7 +452,7 @@ function pngcje_program_officer_meta_box() {
         'pngcje_program_officer_details',
         __( 'Program Officer Details', 'pngcje' ),
         'pngcje_program_officer_meta_box_cb',
-        'pngcje_program_officer',
+        'pngcje_prog_officer',
         'side',
         'high'
     );
@@ -534,7 +534,7 @@ function pngcje_save_program_officer_meta( $post_id ) {
         }
     }
 }
-add_action( 'save_post_pngcje_program_officer', 'pngcje_save_program_officer_meta' );
+add_action( 'save_post_pngcje_prog_officer', 'pngcje_save_program_officer_meta' );
 
 // ============================================================
 // PACIFIC MEMBER META BOX

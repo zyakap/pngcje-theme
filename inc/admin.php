@@ -161,7 +161,7 @@ function pngcje_dashboard_widget_cb() {
                 'Resources'          => wp_count_posts('pngcje_resource')->publish,
                 'Staff Members'      => wp_count_posts('member')->publish,
                 'Board Members'      => wp_count_posts('pngcje_board_member')->publish,
-                'Program Officers'   => wp_count_posts('pngcje_program_officer')->publish,
+                'Program Officers'   => wp_count_posts('pngcje_prog_officer')->publish,
                 'Pacific Members'    => wp_count_posts('pngcje_pacific')->publish,
                 'Events (TEC)'       => function_exists('tribe_get_events') ? wp_count_posts('tribe_events')->publish : 'Plugin inactive',
             ];

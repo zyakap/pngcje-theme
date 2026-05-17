@@ -18,7 +18,7 @@ function pngcje_newsletters_register() {
             'set_featured_image' => __( 'Set newsletter cover', 'pngcje' ),
         ],
         'public'        => true,
-        'has_archive'   => 'newsletters',
+        'has_archive'   => false,
         'show_ui'       => true,
         'show_in_menu'  => false,
         'show_in_rest'  => true,

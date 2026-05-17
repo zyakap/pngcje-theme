@@ -226,7 +226,7 @@ function pngcje_register_post_types() {
     ] );
 
     // --- Program Officers ---
-    register_post_type( 'pngcje_program_officer', [
+    register_post_type( 'pngcje_prog_officer', [
         'labels' => [
             'name'               => __( 'Program Officers', 'pngcje' ),
             'singular_name'      => __( 'Program Officer', 'pngcje' ),

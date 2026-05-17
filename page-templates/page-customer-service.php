@@ -49,7 +49,7 @@ $feedback_channels = [
 ];
 
 $program_officers = new WP_Query( [
-    'post_type'      => 'pngcje_program_officer',
+    'post_type'      => 'pngcje_prog_officer',
     'posts_per_page' => -1,
     'post_status'    => 'publish',
     'orderby'        => [

@@ -1,8 +1,11 @@
 <?php
 get_header();
+
+$newsletters_page    = get_page_by_path( 'newsletters' );
+$newsletters_page_id = $newsletters_page ? $newsletters_page->ID : null;
 ?>
 
-<div <?php pngcje_page_hero_attrs(); ?>>
+<div <?php pngcje_page_hero_attrs( $newsletters_page_id ); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
         <h1 class="page-hero__title"><?php esc_html_e( 'Newsletters', 'pngcje' ); ?></h1>
