@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Website Policy";
-$page_title = "Terms of Use";
+$page_title = get_the_title();
 $page_desc = "Conditions for using the PNGCJE website, public information, resources and online services.";
 $page_sidebar = '';
 $page_resource_type = '';

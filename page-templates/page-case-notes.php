@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Case Notes";
-$page_title = "Papua New Guinea Supreme Court and National Court Case Notes";
+$page_title = get_the_title();
 $page_desc = "Curated case notes preserve key legal developments and support continuing learning across the judiciary and legal profession.";
 $page_sidebar = "ourwork";
 $page_resource_type = "case-notes";

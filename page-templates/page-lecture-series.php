@@ -5,8 +5,8 @@
  */
 get_header();
 
-$page_label = "Lecture Series";
-$page_title = "Lecture Series";
+$page_label = get_the_title();
+$page_title = get_the_title();
 $page_desc = "The lecture series brings leading jurists and practitioners into conversation with the judiciary, legal profession and law students.";
 $page_sidebar = "ourwork";
 $page_resource_type = "lecture-series";

@@ -8,7 +8,7 @@ get_header(); ?>
 <div <?php pngcje_page_hero_attrs( null, 'padding-block:var(--space-16);' ); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
-        <h1 class="page-hero__title">Contact Us</h1>
+        <h1 class="page-hero__title"><?php the_title(); ?></h1>
         <p class="page-hero__desc">Please provide your contact details and an outline of your enquiry, and our team of Program Officers will respond to you.</p>
     </div>
 </div>

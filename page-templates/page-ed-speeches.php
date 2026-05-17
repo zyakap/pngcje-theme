@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Executive Director Speeches";
-$page_title = "Executive Director Speeches";
+$page_title = get_the_title();
 $page_desc = "Speeches and papers from PNGCJE leadership are preserved for reference, learning and institutional memory.";
 $page_sidebar = "ourwork";
 $page_resource_type = "executive-director-speeches";

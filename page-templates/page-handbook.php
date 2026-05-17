@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Judicial Handbook";
-$page_title = "Handbook";
+$page_title = get_the_title();
 $page_desc = "The PNG Judicial Handbook is a practical reference for judicial officers and court users seeking guidance on judicial administration and procedure.";
 $page_sidebar = "ourwork";
 $page_resource_type = "judicial-handbook";

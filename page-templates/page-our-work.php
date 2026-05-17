@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Our Work";
-$page_title = "Our Work";
+$page_title = get_the_title();
 $page_desc = "Explore PNGCJE programs, publications and services supporting judicial education, court administration and professional development.";
 $page_sidebar = "";
 $page_resource_type = "";

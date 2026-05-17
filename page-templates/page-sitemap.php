@@ -8,7 +8,7 @@ get_header(); ?>
 <div <?php pngcje_page_hero_attrs(); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
-        <h1 class="page-hero__title">Sitemap</h1>
+        <h1 class="page-hero__title"><?php the_title(); ?></h1>
         <p class="page-hero__desc">A full directory of all pages and sections on the PNGCJE website.</p>
     </div>
 </div>
@@ -47,7 +47,7 @@ get_header(); ?>
                         [ 'CPD Lectures',       pngcje_get_resource_type_url( 'cpd-lectures' ) ],
                         [ 'Executive Director Speeches', pngcje_get_resource_type_url( 'executive-director-speeches' ) ],
                         [ 'Prospectus',         home_url( '/prospectus/' ) ],
-                        [ 'Lecture Series',     home_url( '/lecture-series/' ) ],
+                        [ 'Sir Buri Kidu Lecture Series', home_url( '/sir-buri-kidu-lecture-series/' ) ],
                         [ 'Training Calendar',  home_url( '/training-calendar/' ) ],
                         [ 'Customer Service',   home_url( '/customer-service/' ) ],
                     ],

@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Training Programs";
-$page_title = "Prospectus";
+$page_title = get_the_title();
 $page_desc = "The PNGCJE prospectus provides a forward view of programs, workshops, events and training priorities for judicial officers and law and justice sector practitioners.";
 $page_sidebar = "ourwork";
 $page_resource_type = "prospectus";

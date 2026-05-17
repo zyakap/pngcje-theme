@@ -62,7 +62,7 @@ $program_officers = new WP_Query( [
 <div <?php pngcje_page_hero_attrs(); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
-        <h1 class="page-hero__title"><?php esc_html_e( 'CUSTOMER SERVICE CHARTER', 'pngcje' ); ?></h1>
+        <h1 class="page-hero__title"><?php the_title(); ?></h1>
         <p class="page-hero__desc">
             <?php esc_html_e( 'Your professional development is our business. This charter sets out the service standards you can expect from PNGCJE when engaging with our judicial education programs.', 'pngcje' ); ?>
         </p>

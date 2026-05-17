@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "About PNGCJE";
-$page_title = "About the PNGCJE";
+$page_title = get_the_title();
 $page_desc = "Established in 2010, the Papua New Guinea Centre for Judicial Excellence coordinates judicial education and professional development for the courts and the wider law and justice sector.";
 $page_sidebar = "about";
 $page_resource_type = "";

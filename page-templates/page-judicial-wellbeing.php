@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Judicial Well-being";
-$page_title = "Integrity and Judicial Well-being";
+$page_title = get_the_title();
 $page_desc = "A focused program area supporting ethical leadership, professional resilience and the well-being of judicial officers.";
 $page_sidebar = "";
 $page_sections = json_decode( <<<'JSON'

@@ -11,7 +11,7 @@ $ourwork_links = [
     [ 'CPD Lectures',      pngcje_get_resource_type_url( 'cpd-lectures' ) ],
     [ 'ED Speeches',       pngcje_get_resource_type_url( 'executive-director-speeches' ) ],
     [ 'Prospectus',       home_url( '/prospectus/' ) ],
-    [ 'Lecture Series',   home_url( '/lecture-series/' ) ],
+    [ 'Sir Buri Kidu Lecture Series', home_url( '/sir-buri-kidu-lecture-series/' ) ],
     [ 'Training Calendar',home_url( '/training-calendar/' ) ],
     [ 'Annual Reports',   home_url( '/annual-reports/' ) ],
     [ 'Newsletters',      home_url( '/newsletters/' ) ],

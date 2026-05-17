@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Website Policy";
-$page_title = "Privacy Policy";
+$page_title = get_the_title();
 $page_desc = "How PNGCJE handles personal information submitted through this website and its online services.";
 $page_sidebar = '';
 $page_resource_type = '';

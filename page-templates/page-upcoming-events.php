@@ -9,7 +9,7 @@ $events = function_exists( 'pngcje_get_upcoming_events' ) ? pngcje_get_upcoming_
 <div <?php pngcje_page_hero_attrs(); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
-        <h1 class="page-hero__title">Upcoming Events</h1>
+        <h1 class="page-hero__title"><?php the_title(); ?></h1>
         <p class="page-hero__desc">Upcoming training activities, forums and programs delivered by PNGCJE and its partners.</p>
     </div>
 </div>

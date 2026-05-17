@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Continuing Professional Development Lectures";
-$page_title = "Continuing Professional Development Lectures";
+$page_title = get_the_title();
 $page_desc = "CPD lectures provide accessible learning opportunities for judicial officers and law and justice sector practitioners.";
 $page_sidebar = "ourwork";
 $page_resource_type = "cpd-lectures";

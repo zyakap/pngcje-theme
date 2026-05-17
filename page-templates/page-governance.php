@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Governance";
-$page_title = "Governance";
+$page_title = get_the_title();
 $page_desc = "The PNGCJE is governed through a Board, Secretariat and Faculty of Trainers established to support accountability, strategic direction and judicial education delivery.";
 $page_sidebar = "about";
 $page_resource_type = "";

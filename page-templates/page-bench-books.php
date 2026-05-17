@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Bench Books";
-$page_title = "Bench Books";
+$page_title = get_the_title();
 $page_desc = "Practical reference publications for judicial officers, supporting consistent decision-making and court practice.";
 $page_sidebar = "ourwork";
 $page_resource_type = "bench-books";

@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Annual Reports";
-$page_title = "Annual Reports";
+$page_title = get_the_title();
 $page_desc = "Annual reports provide transparency over PNGCJE programs, partnerships, activities and institutional progress.";
 $page_sidebar = "";
 $page_resource_type = "annual-reports";

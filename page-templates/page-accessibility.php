@@ -6,7 +6,7 @@
 get_header();
 
 $page_label = "Website Policy";
-$page_title = "Accessibility";
+$page_title = get_the_title();
 $page_desc = "PNGCJE is committed to making website information easier to access, read and use across devices and user needs.";
 $page_sidebar = '';
 $page_resource_type = '';

@@ -166,7 +166,13 @@ $page_resource_layout = $page_resource_layout ?? '';
                     <section class="reveal" style="margin-bottom:3rem;">
                         <div class="section-label"><?php echo esc_html( $page_resource_label ); ?></div>
                         <?php if ( $resources->have_posts() ) : ?>
-                                <div class="resource-grid grid grid-3">
+                                <?php
+                                $resource_grid_classes = 'resource-grid grid grid-3';
+                                if ( 'tiles' === $page_resource_layout ) {
+                                    $resource_grid_classes .= ' resource-grid--tiles';
+                                }
+                                ?>
+                                <div class="<?php echo esc_attr( $resource_grid_classes ); ?>">
                                     <?php while ( $resources->have_posts() ) : $resources->the_post(); ?>
                                         <?php
                                         $year = get_post_meta( get_the_ID(), '_pngcje_resource_year', true );

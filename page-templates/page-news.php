@@ -3,6 +3,12 @@
  * Template Name: News Landing
  * Refreshed news archive landing page.
  */
+$request_path = isset( $_SERVER['REQUEST_URI'] ) ? trim( (string) parse_url( wp_unslash( $_SERVER['REQUEST_URI'] ), PHP_URL_PATH ), '/' ) : '';
+if ( preg_match( '#^newsletters(?:/page/[0-9]+)?$#', $request_path ) ) {
+    require get_template_directory() . '/page-templates/page-newsletters.php';
+    return;
+}
+
 get_header();
 $paged = max( 1, get_query_var( 'paged' ), get_query_var( 'page' ) );
 $news_query = new WP_Query( [
@@ -15,7 +21,7 @@ $news_query = new WP_Query( [
 <div <?php pngcje_page_hero_attrs(); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
-        <h1 class="page-hero__title">News</h1>
+        <h1 class="page-hero__title"><?php esc_html_e( 'News', 'pngcje' ); ?></h1>
         <p class="page-hero__desc">Latest PNGCJE training news, judicial education updates, regional engagement and institutional announcements.</p>
     </div>
 </div>

@@ -234,6 +234,50 @@ p:last-child { margin-bottom: 0; }
 .grid-3 { grid-template-columns: repeat(3, 1fr); }
 .grid-4 { grid-template-columns: repeat(4, 1fr); }
 
+.resource-grid--tiles {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.resource-grid--tiles .resource-card {
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.resource-grid--tiles .resource-card__media,
+.resource-grid--tiles .resource-card__placeholder {
+  display: block;
+  aspect-ratio: 3 / 4;
+  background: var(--cream);
+}
+
+.resource-grid--tiles .resource-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.resource-grid--tiles .resource-card__placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resource-grid--tiles .card__body {
+  padding: var(--space-4);
+}
+
+.resource-grid--tiles .badge {
+  font-size: .68rem;
+  padding: 2px var(--space-2);
+}
+
+.resource-grid--tiles h3 {
+  font-size: var(--size-sm) !important;
+  line-height: 1.35;
+}
+
 .flex { display: flex; }
 .flex-center { display: flex; align-items: center; justify-content: center; }
 .flex-between { display: flex; align-items: center; justify-content: space-between; }
@@ -2263,6 +2307,7 @@ body.admin-bar .site-header-spacer { height: 152px; }
    ============================================================ */
 @media (max-width: 1024px) {
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .resource-grid--tiles { grid-template-columns: repeat(3, 1fr); }
   .stats-strip__inner { grid-template-columns: repeat(2, 1fr); }
   .quick-access__grid { grid-template-columns: repeat(3, 1fr); }
   .news-grid { grid-template-columns: 1fr 1fr; }
@@ -2309,6 +2354,7 @@ body.admin-bar .site-header-spacer { height: 152px; }
   .mission-image::after { display: none; }
 
   .pacific-members-grid { grid-template-columns: repeat(2, 1fr); }
+  .resource-grid--tiles { grid-template-columns: repeat(2, 1fr); }
 
   .contact-split { grid-template-columns: 1fr; }
   .contact-info, .contact-form-wrap { padding: var(--space-10) var(--space-6); }
