@@ -6,24 +6,26 @@
 get_header();
 while ( have_posts() ) : the_post();
 
+$post_type = get_post_type();
+$is_annual_report = 'pngcje_annual_report' === $post_type;
 $file_url  = get_post_meta( get_the_ID(), '_pngcje_resource_file',     true );
 $year      = get_post_meta( get_the_ID(), '_pngcje_resource_year',     true );
 $filetype  = get_post_meta( get_the_ID(), '_pngcje_resource_filetype', true ) ?: 'PDF';
 $size_raw  = get_post_meta( get_the_ID(), '_pngcje_resource_filesize', true );
 $filesize  = $size_raw ? pngcje_file_size( $size_raw ) : '';
-$types     = get_the_terms( get_the_ID(), 'resource_type' );
+$types     = $is_annual_report ? false : get_the_terms( get_the_ID(), 'resource_type' );
 $type      = $types && ! is_wp_error( $types ) ? $types[0] : null;
-$icon      = pngcje_resource_icon( $type ? $type->slug : '' );
+$icon      = $is_annual_report ? pngcje_resource_icon( 'annual-reports' ) : pngcje_resource_icon( $type ? $type->slug : '' );
 $post_body = trim( (string) get_post_field( 'post_content', get_the_ID() ) );
 $type_link = $type ? get_term_link( $type ) : '';
-$is_annual_report = $type && 'annual-reports' === $type->slug;
+$document_type_label = $is_annual_report ? __( 'Annual Report', 'pngcje' ) : ( $type ? $type->name : '' );
 ?>
 
 <div <?php pngcje_page_hero_attrs(); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
         <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;flex-wrap:wrap;">
-            <?php if ( $type ) echo '<span class="badge badge--green">' . esc_html( $type->name ) . '</span>'; ?>
+            <?php if ( $document_type_label ) echo '<span class="badge badge--green">' . esc_html( $document_type_label ) . '</span>'; ?>
             <?php if ( $year  ) echo '<span class="badge badge--gold">' . esc_html( $year ) . '</span>'; ?>
             <?php echo '<span class="badge" style="background:rgba(255,255,255,.15);color:#fff;">' . esc_html( strtoupper( $filetype ) ) . '</span>'; ?>
         </div>
@@ -120,9 +122,11 @@ $is_annual_report = $type && 'annual-reports' === $type->slug;
                         ?>
                     </a>
                     <?php endif; ?>
-                    <a href="<?php echo esc_url( get_post_type_archive_link( 'pngcje_resource' ) ); ?>" class="btn btn-outline">
-                        <?php esc_html_e( 'All resources', 'pngcje' ); ?>
-                    </a>
+                    <?php if ( ! $is_annual_report ) : ?>
+                        <a href="<?php echo esc_url( get_post_type_archive_link( 'pngcje_resource' ) ); ?>" class="btn btn-outline">
+                            <?php esc_html_e( 'All resources', 'pngcje' ); ?>
+                        </a>
+                    <?php endif; ?>
                 </nav>
             </div>
 
@@ -135,7 +139,7 @@ $is_annual_report = $type && 'annual-reports' === $type->slug;
                         <dl style="display:flex;flex-direction:column;gap:.85rem;">
                             <?php
                             $details = array_filter( [
-                                __( 'Type', 'pngcje' )      => $type ? $type->name : '',
+                                __( 'Type', 'pngcje' )      => $document_type_label,
                                 __( 'Year', 'pngcje' )      => $year,
                                 __( 'Format', 'pngcje' )    => $filetype ? strtoupper( $filetype ) : '',
                                 __( 'File size', 'pngcje' ) => $filesize,
@@ -158,16 +162,20 @@ $is_annual_report = $type && 'annual-reports' === $type->slug;
                     </div>
                 </div>
 
-                <?php if ( $type ) :
-                    $related = new WP_Query( [
-                        'post_type'      => 'pngcje_resource',
+                <?php
+                if ( $is_annual_report || $type ) :
+                    $related_args = [
+                        'post_type'      => $is_annual_report ? 'pngcje_annual_report' : 'pngcje_resource',
                         'posts_per_page' => 5,
                         'post_status'    => 'publish',
                         'post__not_in'   => [ get_the_ID() ],
-                        'tax_query'      => [ [ 'taxonomy' => 'resource_type', 'field' => 'term_id', 'terms' => $type->term_id ] ],
                         'orderby'        => 'date',
                         'order'          => 'DESC',
-                    ] );
+                    ];
+                    if ( ! $is_annual_report && $type ) {
+                        $related_args['tax_query'] = [ [ 'taxonomy' => 'resource_type', 'field' => 'term_id', 'terms' => $type->term_id ] ];
+                    }
+                    $related = new WP_Query( $related_args );
                     if ( $related->have_posts() ) : ?>
                 <div class="card" style="border-left:4px solid var(--gold-primary);">
                     <div class="card__body">
@@ -177,7 +185,7 @@ $is_annual_report = $type && 'annual-reports' === $type->slug;
                                 sprintf(
                                     /* translators: %s: resource type name */
                                     __( 'More %s', 'pngcje' ),
-                                    $type->name
+                                    $is_annual_report ? __( 'Annual Reports', 'pngcje' ) : $type->name
                                 )
                             );
                             ?>

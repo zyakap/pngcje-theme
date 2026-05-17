@@ -33,7 +33,9 @@ get_header();
                 <?php esc_html_e( 'All Resources', 'pngcje' ); ?>
             </button>
             <?php
-            $terms = get_terms( [ 'taxonomy' => 'resource_type', 'hide_empty' => true ] );
+            $terms = function_exists( 'pngcje_public_resource_terms' )
+                ? pngcje_public_resource_terms()
+                : get_terms( [ 'taxonomy' => 'resource_type', 'hide_empty' => true ] );
             if ( $terms && ! is_wp_error( $terms ) ) :
                 foreach ( $terms as $term ) :
            ?>
@@ -54,6 +56,12 @@ get_header();
                 'post_type'      => 'pngcje_resource',
                 'posts_per_page' => -1,
                 'post_status'    => 'publish',
+                'tax_query'      => [ [
+                    'taxonomy' => 'resource_type',
+                    'field'    => 'slug',
+                    'terms'    => function_exists( 'pngcje_excluded_resource_type_slugs' ) ? pngcje_excluded_resource_type_slugs() : [ 'annual-reports' ],
+                    'operator' => 'NOT IN',
+                ] ],
                 'orderby'        => 'date',
                 'order'          => 'DESC',
             ] );

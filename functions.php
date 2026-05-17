@@ -186,6 +186,28 @@ function pngcje_register_post_types() {
         'show_in_rest' => true,
     ] );
 
+    // --- Annual Reports ---
+    register_post_type( 'pngcje_annual_report', [
+        'labels' => [
+            'name'               => __( 'Annual Reports', 'pngcje' ),
+            'singular_name'      => __( 'Annual Report', 'pngcje' ),
+            'add_new_item'       => __( 'Add New Annual Report', 'pngcje' ),
+            'edit_item'          => __( 'Edit Annual Report', 'pngcje' ),
+            'all_items'          => __( 'All Annual Reports', 'pngcje' ),
+            'search_items'       => __( 'Search Annual Reports', 'pngcje' ),
+            'not_found'          => __( 'No annual reports found', 'pngcje' ),
+            'featured_image'     => __( 'Annual Report Cover', 'pngcje' ),
+            'set_featured_image' => __( 'Set annual report cover', 'pngcje' ),
+        ],
+        'public'        => true,
+        'has_archive'   => false,
+        'menu_icon'     => 'dashicons-chart-area',
+        'menu_position' => 5,
+        'supports'      => [ 'title', 'editor', 'excerpt', 'thumbnail', 'custom-fields' ],
+        'rewrite'       => [ 'slug' => 'annual-report' ],
+        'show_in_rest'  => true,
+    ] );
+
     // --- Staff ---
     register_post_type( 'member', [
         'labels' => [
@@ -341,7 +363,6 @@ function pngcje_resource_type_map() {
         'judicial-handbook'            => [ 'label' => __( 'Judicial Handbook', 'pngcje' ), 'aliases' => [ 'judicial-handbook', 'handbook' ] ],
         'cpd-lectures'                 => [ 'label' => __( 'CPD Lectures', 'pngcje' ), 'aliases' => [ 'cpd-lectures', 'continuing-professional-development-lectures' ] ],
         'executive-director-speeches'  => [ 'label' => __( 'Executive Director Speeches', 'pngcje' ), 'aliases' => [ 'executive-director-speeches', 'ed-speeches', 'speeches' ] ],
-        'annual-reports'               => [ 'label' => __( 'Annual Reports', 'pngcje' ), 'aliases' => [ 'annual-reports' ] ],
         'prospectus'                   => [ 'label' => __( 'Prospectus', 'pngcje' ), 'aliases' => [ 'prospectus' ] ],
         'lecture-series'               => [ 'label' => __( 'Lecture Series', 'pngcje' ), 'aliases' => [ 'lecture-series' ] ],
         'customer-service'             => [ 'label' => __( 'Customer Service', 'pngcje' ), 'aliases' => [ 'customer-service' ] ],
@@ -398,6 +419,26 @@ function pngcje_ensure_resource_types() {
     }
 }
 add_action( 'init', 'pngcje_ensure_resource_types', 20 );
+
+function pngcje_excluded_resource_type_slugs() {
+    return [ 'annual-reports' ];
+}
+
+function pngcje_public_resource_terms( $args = [] ) {
+    $terms = get_terms( array_merge( [
+        'taxonomy'   => 'resource_type',
+        'hide_empty' => true,
+    ], $args ) );
+
+    if ( is_wp_error( $terms ) || empty( $terms ) ) {
+        return $terms;
+    }
+
+    $excluded = pngcje_excluded_resource_type_slugs();
+    return array_values( array_filter( $terms, function ( $term ) use ( $excluded ) {
+        return ! in_array( $term->slug, $excluded, true );
+    } ) );
+}
 
 /**
  * Canonical map slug for resource_type identifiers (handles aliases).
@@ -532,74 +573,68 @@ function pngcje_redirect_legacy_resource_handbook_404() {
 }
 add_action( 'template_redirect', 'pngcje_redirect_legacy_resource_handbook_404', 0 );
 
-function pngcje_annual_reports_admin_menu() {
-    $reports_url = 'edit.php?post_type=pngcje_resource&resource_type=annual-reports';
-    $add_url     = 'post-new.php?post_type=pngcje_resource&pngcje_resource_type=annual-reports';
-
-    add_menu_page(
-        __( 'Annual Reports', 'pngcje' ),
-        __( 'Annual Reports', 'pngcje' ),
-        'edit_posts',
-        $reports_url,
-        '',
-        'dashicons-chart-area',
-        5
-    );
-
-    add_submenu_page(
-        $reports_url,
-        __( 'All Annual Reports', 'pngcje' ),
-        __( 'All Annual Reports', 'pngcje' ),
-        'edit_posts',
-        $reports_url
-    );
-
-    add_submenu_page(
-        $reports_url,
-        __( 'Add New Annual Report', 'pngcje' ),
-        __( 'Add New Annual Report', 'pngcje' ),
-        'edit_posts',
-        $add_url
-    );
+function pngcje_redirect_annual_report_resource_type() {
+    if ( is_tax( 'resource_type', 'annual-reports' ) ) {
+        wp_safe_redirect( home_url( '/annual-reports/' ), 301 );
+        exit;
+    }
 }
-add_action( 'admin_menu', 'pngcje_annual_reports_admin_menu' );
+add_action( 'template_redirect', 'pngcje_redirect_annual_report_resource_type', 1 );
 
-function pngcje_default_new_annual_report_type( $post ) {
-    if ( 'pngcje_resource' !== $post->post_type ) {
+function pngcje_exclude_annual_reports_from_resource_queries( $query ) {
+    if ( ! $query instanceof WP_Query || ! $query->is_main_query() ) {
         return;
     }
 
-    $resource_type = isset( $_GET['pngcje_resource_type'] ) ? sanitize_title( wp_unslash( $_GET['pngcje_resource_type'] ) ) : '';
-    if ( 'annual-reports' !== $resource_type ) {
+    $post_type = $query->get( 'post_type' );
+    if ( ! $post_type && ! is_admin() && $query->is_post_type_archive( 'pngcje_resource' ) ) {
+        $post_type = 'pngcje_resource';
+    }
+
+    if ( 'pngcje_resource' !== $post_type ) {
         return;
     }
-    ?>
-    <input type="hidden" name="pngcje_default_resource_type" value="annual-reports">
-    <?php
+
+    $tax_query = (array) $query->get( 'tax_query' );
+    $tax_query[] = [
+        'taxonomy' => 'resource_type',
+        'field'    => 'slug',
+        'terms'    => pngcje_excluded_resource_type_slugs(),
+        'operator' => 'NOT IN',
+    ];
+    $query->set( 'tax_query', $tax_query );
 }
-add_action( 'edit_form_after_title', 'pngcje_default_new_annual_report_type' );
+add_action( 'pre_get_posts', 'pngcje_exclude_annual_reports_from_resource_queries' );
 
-function pngcje_save_default_resource_type( $post_id ) {
-    if ( ! isset( $_POST['pngcje_default_resource_type'] ) ) {
+function pngcje_migrate_annual_report_resources_to_cpt() {
+    if ( get_option( 'pngcje_annual_reports_cpt_migrated' ) || ! post_type_exists( 'pngcje_annual_report' ) ) {
         return;
     }
 
-    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
-        return;
+    $legacy_reports = get_posts( [
+        'post_type'      => 'pngcje_resource',
+        'post_status'    => 'any',
+        'posts_per_page' => -1,
+        'fields'         => 'ids',
+        'tax_query'      => [ [
+            'taxonomy' => 'resource_type',
+            'field'    => 'slug',
+            'terms'    => [ 'annual-reports' ],
+        ] ],
+    ] );
+
+    foreach ( $legacy_reports as $post_id ) {
+        wp_update_post( [
+            'ID'        => $post_id,
+            'post_type' => 'pngcje_annual_report',
+        ] );
+        wp_delete_object_term_relationships( $post_id, 'resource_type' );
     }
 
-    if ( ! current_user_can( 'edit_post', $post_id ) ) {
-        return;
-    }
-
-    $resource_type = sanitize_title( wp_unslash( $_POST['pngcje_default_resource_type'] ) );
-    if ( 'annual-reports' !== $resource_type ) {
-        return;
-    }
-
-    wp_set_object_terms( $post_id, $resource_type, 'resource_type', false );
+    update_option( 'pngcje_annual_reports_cpt_migrated', 1, false );
+    flush_rewrite_rules( false );
 }
-add_action( 'save_post_pngcje_resource', 'pngcje_save_default_resource_type' );
+add_action( 'admin_init', 'pngcje_migrate_annual_report_resources_to_cpt' );
 
 // ============================================================
 // WIDGETS / SIDEBARS
@@ -944,6 +979,14 @@ function pngcje_resource_columns( $columns ) {
 }
 add_filter( 'manage_pngcje_resource_posts_columns', 'pngcje_resource_columns' );
 
+function pngcje_annual_report_columns( $columns ) {
+    return array_merge( $columns, [
+        'resource_file' => __( 'File', 'pngcje' ),
+        'resource_year' => __( 'Year', 'pngcje' ),
+    ] );
+}
+add_filter( 'manage_pngcje_annual_report_posts_columns', 'pngcje_annual_report_columns' );
+
 function pngcje_resource_column_data( $column, $post_id ) {
     switch ( $column ) {
         case 'resource_type':
@@ -960,6 +1003,7 @@ function pngcje_resource_column_data( $column, $post_id ) {
     }
 }
 add_action( 'manage_pngcje_resource_posts_custom_column', 'pngcje_resource_column_data', 10, 2 );
+add_action( 'manage_pngcje_annual_report_posts_custom_column', 'pngcje_resource_column_data', 10, 2 );
 
 function pngcje_youtube_embed_url( $url ) {
     $url = trim( (string) $url );

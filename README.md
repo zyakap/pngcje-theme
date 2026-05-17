@@ -104,7 +104,7 @@ The theme includes slug-based wrappers, so the following public URLs can resolve
 - `/lecture-series/`
 - `/prospectus/`
 - `/prospectus/training-calendar/`
-- `/prospectus/annual-reports/`
+- `/annual-reports/`
 - `/newsletters/`
 - `/customer-service/`
 - `/news/`
@@ -127,7 +127,7 @@ Transactional/plugin pages were intentionally left to plugin/default rendering:
 
 ### Resources
 
-Use Resources for PDFs and public documents such as bench books, case notes, handbooks, CPD lectures, speeches, prospectus documents, annual reports, newsletters and customer service documents.
+Use Resources for PDFs and public documents such as bench books, case notes, handbooks, CPD lectures, speeches, prospectus documents, newsletters and customer service documents. Annual reports are managed separately under the Annual Reports dashboard menu.
 
 Recommended Resource Types:
 
@@ -138,9 +138,12 @@ Recommended Resource Types:
 - `speeches`
 - `prospectus`
 - `lecture-series`
-- `annual-reports`
 - `newsletters`
 - `customer-service`
+
+### Annual Reports
+
+Use Annual Reports for yearly institutional reports. They have their own dashboard menu and are not a Resource Type.
 
 ### Staff Directory
 

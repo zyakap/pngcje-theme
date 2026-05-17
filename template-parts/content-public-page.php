@@ -147,21 +147,28 @@ $page_resource_layout = $page_resource_layout ?? '';
 
                 <?php if ( $page_resource_type ) : ?>
                     <?php
-                    $resource_terms = function_exists( 'pngcje_resource_type_query_terms' )
-                        ? pngcje_resource_type_query_terms( $page_resource_type )
-                        : [ $page_resource_type ];
-                    $resources = new WP_Query( [
+                    $resource_query_args = [
                         'post_type'      => 'pngcje_resource',
                         'posts_per_page' => -1,
                         'post_status'    => 'publish',
-                        'tax_query'      => [ [
+                        'orderby'        => 'date',
+                        'order'          => 'DESC',
+                    ];
+
+                    if ( 'annual-reports' === $page_resource_type ) {
+                        $resource_query_args['post_type'] = 'pngcje_annual_report';
+                    } else {
+                        $resource_terms = function_exists( 'pngcje_resource_type_query_terms' )
+                            ? pngcje_resource_type_query_terms( $page_resource_type )
+                            : [ $page_resource_type ];
+                        $resource_query_args['tax_query'] = [ [
                             'taxonomy' => 'resource_type',
                             'field'    => 'slug',
                             'terms'    => $resource_terms,
-                        ] ],
-                        'orderby'        => 'date',
-                        'order'          => 'DESC',
-                    ] );
+                        ] ];
+                    }
+
+                    $resources = new WP_Query( $resource_query_args );
                     ?>
                     <section class="reveal" style="margin-bottom:3rem;">
                         <div class="section-label"><?php echo esc_html( $page_resource_label ); ?></div>
@@ -199,7 +206,7 @@ $page_resource_layout = $page_resource_layout ?? '';
                                 </div>
                         <?php else : ?>
                             <div style="background:var(--ember-subtle);border-radius:var(--radius-lg);padding:2rem;text-align:center;border:1.5px dashed rgba(212,88,26,.3);">
-                                <p style="color:var(--ink-light);margin:0;"><?php esc_html_e( 'Documents will appear here once they are uploaded to the resource library.', 'pngcje' ); ?></p>
+                                <p style="color:var(--ink-light);margin:0;"><?php echo 'annual-reports' === $page_resource_type ? esc_html__( 'Annual reports will appear here once they are uploaded.', 'pngcje' ) : esc_html__( 'Documents will appear here once they are uploaded to the resource library.', 'pngcje' ); ?></p>
                             </div>
                         <?php endif; ?>
                     </section>

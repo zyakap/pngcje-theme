@@ -44,7 +44,9 @@ $total       = $term->count ?? 0;
                 All Resources
             </a>
             <?php
-            $all_types = get_terms( [ 'taxonomy' => 'resource_type', 'hide_empty' => true ] );
+            $all_types = function_exists( 'pngcje_public_resource_terms' )
+                ? pngcje_public_resource_terms()
+                : get_terms( [ 'taxonomy' => 'resource_type', 'hide_empty' => true ] );
             if ( $all_types && ! is_wp_error( $all_types ) ) :
                 foreach ( $all_types as $t ) : ?>
             <a href="<?php echo esc_url( get_term_link( $t ) ); ?>"

@@ -11,20 +11,22 @@ defined( 'ABSPATH' ) || exit;
 // RESOURCE META BOX
 // ============================================================
 function pngcje_resource_meta_box() {
-    add_meta_box(
-        'pngcje_resource_details',
-        __( 'Resource Details', 'pngcje' ),
-        'pngcje_resource_meta_box_cb',
-        'pngcje_resource',
-        'side',
-        'high'
-    );
+    foreach ( [ 'pngcje_resource', 'pngcje_annual_report' ] as $post_type ) {
+        add_meta_box(
+            'pngcje_resource_details',
+            'pngcje_annual_report' === $post_type ? __( 'Annual Report Details', 'pngcje' ) : __( 'Resource Details', 'pngcje' ),
+            'pngcje_resource_meta_box_cb',
+            $post_type,
+            'side',
+            'high'
+        );
+    }
 }
 add_action( 'add_meta_boxes', 'pngcje_resource_meta_box' );
 
 function pngcje_resource_admin_assets( $hook ) {
     $screen = get_current_screen();
-    if ( ! $screen || ! in_array( $screen->post_type, [ 'pngcje_resource', 'pngcje_hero_slide' ], true ) ) {
+    if ( ! $screen || ! in_array( $screen->post_type, [ 'pngcje_resource', 'pngcje_annual_report', 'pngcje_hero_slide' ], true ) ) {
         return;
     }
 
@@ -242,6 +244,7 @@ function pngcje_save_resource_meta( $post_id ) {
     }
 }
 add_action( 'save_post_pngcje_resource', 'pngcje_save_resource_meta' );
+add_action( 'save_post_pngcje_annual_report', 'pngcje_save_resource_meta' );
 
 // ============================================================
 // STAFF META BOX

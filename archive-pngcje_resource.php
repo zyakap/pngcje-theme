@@ -14,7 +14,7 @@ $queried_type = get_queried_object();
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
         <h1 class="page-hero__title"><?php esc_html_e( 'Resource Library', 'pngcje' ); ?></h1>
         <p class="page-hero__desc">
-            <?php esc_html_e( 'Access all PNGCJE publications — Bench Books, Judicial Handbook, Case Notes, CPD Lectures, Annual Reports and more.', 'pngcje' ); ?>
+            <?php esc_html_e( 'Access PNGCJE publications including Bench Books, Judicial Handbook, Case Notes, CPD Lectures and more.', 'pngcje' ); ?>
         </p>
     </div>
 </div>
@@ -28,7 +28,9 @@ $queried_type = get_queried_object();
                 <?php esc_html_e( 'All Resources', 'pngcje' ); ?>
             </button>
             <?php
-            $types = get_terms( [ 'taxonomy' => 'resource_type', 'hide_empty' => true ] );
+            $types = function_exists( 'pngcje_public_resource_terms' )
+                ? pngcje_public_resource_terms()
+                : get_terms( [ 'taxonomy' => 'resource_type', 'hide_empty' => true ] );
             if ( $types && ! is_wp_error( $types ) ) :
                 foreach ( $types as $type ) :
           ?>
@@ -45,7 +47,9 @@ $queried_type = get_queried_object();
 
         <?php
         // Group resources by type
-        $all_types = get_terms( [ 'taxonomy' => 'resource_type', 'hide_empty' => true ] );
+        $all_types = function_exists( 'pngcje_public_resource_terms' )
+            ? pngcje_public_resource_terms()
+            : get_terms( [ 'taxonomy' => 'resource_type', 'hide_empty' => true ] );
 
         if ( $all_types && ! is_wp_error( $all_types ) ) :
             foreach ( $all_types as $type ) :
