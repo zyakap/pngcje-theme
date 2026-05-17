@@ -15,7 +15,6 @@ $news_query = new WP_Query( [
 <div <?php pngcje_page_hero_attrs(); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
-        <div class="section-label" style="margin-bottom:.75rem;">News and Updates</div>
         <h1 class="page-hero__title">News</h1>
         <p class="page-hero__desc">Latest PNGCJE training news, judicial education updates, regional engagement and institutional announcements.</p>
     </div>

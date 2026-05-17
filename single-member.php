@@ -15,7 +15,6 @@ while ( have_posts() ) : the_post();
     <div <?php pngcje_page_hero_attrs(); ?>>
         <div class="container">
             <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
-            <div class="section-label" style="margin-bottom:.75rem;"><?php esc_html_e( 'Staff Profile', 'pngcje' ); ?></div>
             <h1 class="page-hero__title"><?php the_title(); ?></h1>
             <?php if ( $role ) : ?>
                 <p class="page-hero__desc"><?php echo esc_html( $role ); ?></p>
@@ -63,7 +62,7 @@ while ( have_posts() ) : the_post();
                         </div>
                     </div>
 
-                    <a href="<?php echo esc_url( home_url( '/about/staff/' ) ); ?>" class="btn btn-outline" style="width:100%;justify-content:center;margin-top:1rem;">
+                    <a href="<?php echo esc_url( home_url( '/our-staff/' ) ); ?>" class="btn btn-outline" style="width:100%;justify-content:center;margin-top:1rem;">
                         <?php esc_html_e( 'Back to Staff', 'pngcje' ); ?>
                     </a>
                 </aside>

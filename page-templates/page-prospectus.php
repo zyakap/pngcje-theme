@@ -27,12 +27,12 @@ $page_sections = json_decode( <<<'JSON'
       {
         "title": "Training Calendar",
         "desc": "See scheduled training activities, target participants and delivery locations.",
-        "url": "/prospectus/training-calendar/"
+        "url": "/training-calendar/"
       },
       {
         "title": "Annual Reports",
         "desc": "Review completed activities, program outcomes and institutional reporting.",
-        "url": "/prospectus/annual-reports/"
+        "url": "/annual-reports/"
       }
     ]
   }

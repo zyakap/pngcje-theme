@@ -445,6 +445,98 @@ function pngcje_save_board_member_meta( $post_id ) {
 add_action( 'save_post_pngcje_board_member', 'pngcje_save_board_member_meta' );
 
 // ============================================================
+// PROGRAM OFFICER META BOX
+// ============================================================
+function pngcje_program_officer_meta_box() {
+    add_meta_box(
+        'pngcje_program_officer_details',
+        __( 'Program Officer Details', 'pngcje' ),
+        'pngcje_program_officer_meta_box_cb',
+        'pngcje_program_officer',
+        'side',
+        'high'
+    );
+}
+add_action( 'add_meta_boxes', 'pngcje_program_officer_meta_box' );
+
+function pngcje_program_officer_meta_box_cb( $post ) {
+    wp_nonce_field( 'pngcje_program_officer_meta', 'pngcje_program_officer_nonce' );
+
+    $role  = get_post_meta( $post->ID, '_pngcje_program_officer_role', true );
+    $email = get_post_meta( $post->ID, '_pngcje_program_officer_email', true );
+    $phone = get_post_meta( $post->ID, '_pngcje_program_officer_phone', true );
+    ?>
+    <table class="form-table" style="margin:0;">
+        <tr>
+            <td colspan="2">
+                <label for="po_role" style="font-weight:600;display:block;margin-bottom:4px;">
+                    <?php esc_html_e( 'Program Area / Role', 'pngcje' ); ?>
+                </label>
+                <input
+                    type="text"
+                    id="po_role"
+                    name="_pngcje_program_officer_role"
+                    value="<?php echo esc_attr( $role ); ?>"
+                    placeholder="<?php esc_attr_e( 'e.g. Program Officer - Court Officers', 'pngcje' ); ?>"
+                    class="widefat"
+                >
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="po_email" style="font-weight:600;display:block;margin-bottom:4px;">
+                    <?php esc_html_e( 'Email Address', 'pngcje' ); ?>
+                </label>
+                <input
+                    type="email"
+                    id="po_email"
+                    name="_pngcje_program_officer_email"
+                    value="<?php echo esc_attr( $email ); ?>"
+                    placeholder="name@pngcje.gov.pg"
+                    class="widefat"
+                >
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="po_phone" style="font-weight:600;display:block;margin-bottom:4px;">
+                    <?php esc_html_e( 'Phone Number', 'pngcje' ); ?>
+                </label>
+                <input
+                    type="text"
+                    id="po_phone"
+                    name="_pngcje_program_officer_phone"
+                    value="<?php echo esc_attr( $phone ); ?>"
+                    placeholder="+675 324 5500"
+                    class="widefat"
+                >
+            </td>
+        </tr>
+    </table>
+    <p class="description"><?php esc_html_e( 'Use the editor for notes and Featured Image for the program officer photo.', 'pngcje' ); ?></p>
+    <?php
+}
+
+function pngcje_save_program_officer_meta( $post_id ) {
+    if ( ! isset( $_POST['pngcje_program_officer_nonce'] )
+        || ! wp_verify_nonce( $_POST['pngcje_program_officer_nonce'], 'pngcje_program_officer_meta' ) ) return;
+    if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE ) return;
+    if ( ! current_user_can( 'edit_post', $post_id ) ) return;
+
+    $fields = [
+        '_pngcje_program_officer_role'  => 'sanitize_text_field',
+        '_pngcje_program_officer_email' => 'sanitize_email',
+        '_pngcje_program_officer_phone' => 'sanitize_text_field',
+    ];
+    foreach ( $fields as $key => $sanitizer ) {
+        if ( isset( $_POST[ $key ] ) ) {
+            update_post_meta( $post_id, $key, $sanitizer( $_POST[ $key ] ) );
+        }
+    }
+}
+add_action( 'save_post_pngcje_program_officer', 'pngcje_save_program_officer_meta' );
+
+// ============================================================
 // PACIFIC MEMBER META BOX
 // ============================================================
 function pngcje_pacific_meta_box() {

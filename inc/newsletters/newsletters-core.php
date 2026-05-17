@@ -49,6 +49,16 @@ function pngcje_newsletters_register() {
 }
 add_action( 'init', 'pngcje_newsletters_register' );
 
+function pngcje_newsletters_archive_order( $query ) {
+    if ( is_admin() || ! $query->is_main_query() || ! $query->is_post_type_archive( 'pngcje_newsletter' ) ) {
+        return;
+    }
+
+    $query->set( 'orderby', 'date' );
+    $query->set( 'order', 'DESC' );
+}
+add_action( 'pre_get_posts', 'pngcje_newsletters_archive_order' );
+
 function pngcje_newsletters_admin_menu() {
     add_menu_page(
         __( 'Newsletter', 'pngcje' ),

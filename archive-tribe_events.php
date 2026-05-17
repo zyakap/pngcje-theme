@@ -142,7 +142,7 @@ get_header();
             <p style="color:var(--ink-light);max-width:400px;margin:0 auto 2rem;">
                 <?php esc_html_e( 'There are no scheduled events at this time. Check back soon for our upcoming training calendar.', 'pngcje' ); ?>
             </p>
-            <a href="<?php echo esc_url( home_url('/prospectus/training-calendar/') ); ?>" class="btn btn-primary">
+            <a href="<?php echo esc_url( home_url('/training-calendar/') ); ?>" class="btn btn-primary">
                 <?php esc_html_e( 'View Training Prospectus', 'pngcje' ); ?>
             </a>
         </div>

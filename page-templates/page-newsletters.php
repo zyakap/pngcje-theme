@@ -11,6 +11,8 @@ $newsletters = new WP_Query( [
     'post_status'    => 'publish',
     'posts_per_page' => 12,
     'paged'          => $paged,
+    'orderby'        => 'date',
+    'order'          => 'DESC',
 ] );
 ?>
 
@@ -25,17 +27,17 @@ $newsletters = new WP_Query( [
 <section class="section">
     <div class="container">
         <?php if ( $newsletters->have_posts() ) : ?>
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;">
+        <div class="newsletter-grid grid grid-4">
             <?php while ( $newsletters->have_posts() ) : $newsletters->the_post();
                 $downloads = function_exists( 'pngcje_newsletter_get_downloads' ) ? pngcje_newsletter_get_downloads( get_the_ID() ) : [];
             ?>
-            <a href="<?php the_permalink(); ?>" class="card reveal" style="display:flex;flex-direction:column;text-decoration:none;overflow:hidden;">
+            <a href="<?php the_permalink(); ?>" class="card newsletter-card reveal">
                 <?php if ( has_post_thumbnail() ) : ?>
-                <span class="card__media" style="aspect-ratio:4/3;overflow:hidden;background:var(--cream);">
-                    <?php echo get_the_post_thumbnail( get_the_ID(), 'pngcje-card', [ 'loading' => 'lazy', 'decoding' => 'async', 'alt' => esc_attr( wp_strip_all_tags( get_the_title() ) ) ] ); ?>
+                <span class="newsletter-card__media">
+                    <?php echo get_the_post_thumbnail( get_the_ID(), 'medium_large', [ 'loading' => 'lazy', 'decoding' => 'async', 'class' => 'newsletter-card__image', 'alt' => esc_attr( wp_strip_all_tags( get_the_title() ) ) ] ); ?>
                 </span>
                 <?php else : ?>
-                <span style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background:var(--cream);font-size:3rem;" aria-hidden="true">📰</span>
+                <span class="newsletter-card__placeholder" aria-hidden="true">📰</span>
                 <?php endif; ?>
                 <span class="card__body" style="display:flex;flex-direction:column;gap:.75rem;">
                     <span class="badge badge--gold" style="align-self:flex-start;"><?php echo esc_html( get_the_date() ); ?></span>
@@ -62,6 +64,24 @@ $newsletters = new WP_Query( [
         <?php else : ?>
         <div class="card"><div class="card__body"><p style="margin:0;color:var(--ink-mid);"><?php esc_html_e( 'No newsletters have been published yet.', 'pngcje' ); ?></p></div></div>
         <?php endif; wp_reset_postdata(); ?>
+    </div>
+</section>
+
+<!-- SUBSCRIBE CTA -->
+<section class="newsletter-section">
+    <div class="container newsletter-section__inner">
+        <div class="section-label" style="color:var(--gold-light);justify-content:center;">Stay Informed</div>
+        <h2><?php esc_html_e( 'Subscribe to Our Newsletter', 'pngcje' ); ?></h2>
+        <p><?php esc_html_e( 'Receive the latest news, training updates and publications from the PNGCJE directly to your inbox.', 'pngcje' ); ?></p>
+        <?php
+        $pngcje_newsletter_gf_id      = absint( get_theme_mod( 'pngcje_newsletter_gravity_form_id', 0 ) );
+        $pngcje_newsletter_native_id = absint( get_theme_mod( 'pngcje_newsletter_pngcje_form_id', 65 ) );
+        if ( function_exists( 'gravity_form' ) && $pngcje_newsletter_gf_id > 0 ) :
+            gravity_form( $pngcje_newsletter_gf_id, false, false, false, null, true );
+        elseif ( $pngcje_newsletter_native_id > 0 ) :
+            echo do_shortcode( '[pngcje_form id="' . $pngcje_newsletter_native_id . '"]' );
+        endif;
+        ?>
     </div>
 </section>
 

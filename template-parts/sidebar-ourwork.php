@@ -12,8 +12,8 @@ $ourwork_links = [
     [ 'ED Speeches',       pngcje_get_resource_type_url( 'executive-director-speeches' ) ],
     [ 'Prospectus',       home_url( '/prospectus/' ) ],
     [ 'Lecture Series',   home_url( '/lecture-series/' ) ],
-    [ 'Training Calendar',home_url( '/prospectus/training-calendar/' ) ],
-    [ 'Annual Reports',   home_url( '/prospectus/annual-reports/' ) ],
+    [ 'Training Calendar',home_url( '/training-calendar/' ) ],
+    [ 'Annual Reports',   home_url( '/annual-reports/' ) ],
     [ 'Newsletters',      home_url( '/newsletters/' ) ],
     [ 'Customer Service', home_url( '/customer-service/' ) ],
 ];

@@ -41,7 +41,7 @@ $page_sections = json_decode( <<<'JSON'
       {
         "title": "Upcoming Events",
         "desc": "See scheduled forums, workshops and regional training activities.",
-        "url": "/integrity-and-judicial-well-being-2-2/"
+        "url": "/upcoming-events/"
       }
     ]
   }

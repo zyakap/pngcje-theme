@@ -68,7 +68,7 @@
                             $links = [
                                 __( 'Home',                     'pngcje' ) => home_url( '/' ),
                                 __( 'About the PNGCJE',         'pngcje' ) => home_url( '/about/' ),
-                                __( 'Our Staff',                'pngcje' ) => home_url( '/about/staff/' ),
+                                __( 'Our Staff',                'pngcje' ) => home_url( '/our-staff/' ),
                                 __( 'Governance',               'pngcje' ) => home_url( '/about/governance/' ),
                                 __( 'Contact Us',               'pngcje' ) => home_url( '/contact-us/' ),
                                 __( 'Sitemap',                  'pngcje' ) => home_url( '/about/sitemap/' ),
@@ -96,8 +96,8 @@
                                 __( 'Judicial Handbook',  'pngcje' ) => pngcje_get_resource_type_url( 'judicial-handbook' ),
                                 __( 'Case Notes',         'pngcje' ) => pngcje_get_resource_type_url( 'case-notes' ),
                                 __( 'CPD Lectures',       'pngcje' ) => pngcje_get_resource_type_url( 'cpd-lectures' ),
-                                __( 'Training Calendar',  'pngcje' ) => home_url( '/prospectus/training-calendar/' ),
-                                __( 'Annual Reports',     'pngcje' ) => home_url( '/prospectus/annual-reports/' ),
+                                __( 'Training Calendar',  'pngcje' ) => home_url( '/training-calendar/' ),
+                                __( 'Annual Reports',     'pngcje' ) => home_url( '/annual-reports/' ),
                                 __( 'Newsletters',        'pngcje' ) => home_url( '/newsletters/' ),
                             ];
                             echo '<ul>';

@@ -225,6 +225,29 @@ function pngcje_register_post_types() {
         'show_in_rest'  => true,
     ] );
 
+    // --- Program Officers ---
+    register_post_type( 'pngcje_program_officer', [
+        'labels' => [
+            'name'               => __( 'Program Officers', 'pngcje' ),
+            'singular_name'      => __( 'Program Officer', 'pngcje' ),
+            'add_new_item'       => __( 'Add Program Officer', 'pngcje' ),
+            'edit_item'          => __( 'Edit Program Officer', 'pngcje' ),
+            'all_items'          => __( 'All Program Officers', 'pngcje' ),
+            'search_items'       => __( 'Search Program Officers', 'pngcje' ),
+            'not_found'          => __( 'No program officers found', 'pngcje' ),
+            'featured_image'     => __( 'Program Officer Photo', 'pngcje' ),
+            'set_featured_image' => __( 'Set program officer photo', 'pngcje' ),
+        ],
+        'public'        => true,
+        'publicly_queryable' => true,
+        'has_archive'   => false,
+        'menu_icon'     => 'dashicons-welcome-learn-more',
+        'menu_position' => 8,
+        'supports'      => [ 'title', 'editor', 'thumbnail', 'custom-fields', 'page-attributes' ],
+        'rewrite'       => [ 'slug' => 'program-officers', 'with_front' => false ],
+        'show_in_rest'  => true,
+    ] );
+
     // --- Announcements (feeds Popup Maker) ---
     register_post_type( 'pngcje_announcement', [
         'labels' => [
@@ -235,7 +258,7 @@ function pngcje_register_post_types() {
         'public'        => true,
         'has_archive'   => false,
         'menu_icon'     => 'dashicons-megaphone',
-        'menu_position' => 8,
+        'menu_position' => 9,
         'supports'      => [ 'title', 'editor', 'custom-fields' ],
         'rewrite'       => [ 'slug' => 'announcements' ],
         'show_in_rest'  => true,
@@ -510,45 +533,36 @@ function pngcje_redirect_legacy_resource_handbook_404() {
 add_action( 'template_redirect', 'pngcje_redirect_legacy_resource_handbook_404', 0 );
 
 function pngcje_annual_reports_admin_menu() {
+    $reports_url = 'edit.php?post_type=pngcje_resource&resource_type=annual-reports';
+    $add_url     = 'post-new.php?post_type=pngcje_resource&pngcje_resource_type=annual-reports';
+
     add_menu_page(
         __( 'Annual Reports', 'pngcje' ),
         __( 'Annual Reports', 'pngcje' ),
         'edit_posts',
-        'pngcje_annual_reports',
-        'pngcje_annual_reports_admin_redirect',
+        $reports_url,
+        '',
         'dashicons-chart-area',
         5
     );
 
     add_submenu_page(
-        'pngcje_annual_reports',
+        $reports_url,
         __( 'All Annual Reports', 'pngcje' ),
         __( 'All Annual Reports', 'pngcje' ),
         'edit_posts',
-        'pngcje_annual_reports',
-        'pngcje_annual_reports_admin_redirect'
+        $reports_url
     );
 
     add_submenu_page(
-        'pngcje_annual_reports',
+        $reports_url,
         __( 'Add New Annual Report', 'pngcje' ),
         __( 'Add New Annual Report', 'pngcje' ),
         'edit_posts',
-        'pngcje_add_annual_report',
-        'pngcje_add_annual_report_admin_redirect'
+        $add_url
     );
 }
 add_action( 'admin_menu', 'pngcje_annual_reports_admin_menu' );
-
-function pngcje_annual_reports_admin_redirect() {
-    wp_safe_redirect( admin_url( 'edit.php?post_type=pngcje_resource&resource_type=annual-reports' ) );
-    exit;
-}
-
-function pngcje_add_annual_report_admin_redirect() {
-    wp_safe_redirect( admin_url( 'post-new.php?post_type=pngcje_resource&pngcje_resource_type=annual-reports' ) );
-    exit;
-}
 
 function pngcje_default_new_annual_report_type( $post ) {
     if ( 'pngcje_resource' !== $post->post_type ) {
@@ -677,7 +691,7 @@ function pngcje_breadcrumbs() {
         }
         $items[] = '<span>' . esc_html( get_the_title() ) . '</span>';
     } elseif ( is_archive() ) {
-        $items[] = '<span>' . esc_html( get_the_archive_title() ) . '</span>';
+        $items[] = '<span>' . esc_html( wp_strip_all_tags( get_the_archive_title() ) ) . '</span>';
     } elseif ( is_search() ) {
         $items[] = '<span>' . esc_html( sprintf( __( 'Search: %s', 'pngcje' ), get_search_query() ) ) . '</span>';
     }

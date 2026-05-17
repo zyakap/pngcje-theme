@@ -7,7 +7,7 @@ defined( 'ABSPATH' ) || exit;
 $current_url = trailingslashit( get_permalink() ?: '' );
 $about_links = [
     [ __( 'About the PNGCJE', 'pngcje' ), home_url( '/about/' ) ],
-    [ __( 'Our Staff', 'pngcje' ), home_url( '/about/staff/' ) ],
+    [ __( 'Our Staff', 'pngcje' ), home_url( '/our-staff/' ) ],
     [ __( 'Governance', 'pngcje' ), home_url( '/about/governance/' ) ],
     [ __( 'Sitemap', 'pngcje' ), home_url( '/about/sitemap/' ) ],
 ];

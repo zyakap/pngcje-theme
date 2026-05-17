@@ -21,9 +21,6 @@ $page_resource_layout = $page_resource_layout ?? '';
 <div <?php pngcje_page_hero_attrs(); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
-        <?php if ( $page_label ) : ?>
-            <div class="section-label" style="margin-bottom:.75rem;"><?php echo esc_html( $page_label ); ?></div>
-        <?php endif; ?>
         <h1 class="page-hero__title"><?php echo esc_html( $page_title ); ?></h1>
         <?php if ( $page_desc ) : ?>
             <p class="page-hero__desc"><?php echo esc_html( $page_desc ); ?></p>
@@ -169,20 +166,19 @@ $page_resource_layout = $page_resource_layout ?? '';
                     <section class="reveal" style="margin-bottom:3rem;">
                         <div class="section-label"><?php echo esc_html( $page_resource_label ); ?></div>
                         <?php if ( $resources->have_posts() ) : ?>
-                            <?php if ( 'tiles' === $page_resource_layout ) : ?>
-                                <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;">
+                                <div class="resource-grid grid grid-3">
                                     <?php while ( $resources->have_posts() ) : $resources->the_post(); ?>
                                         <?php
                                         $year = get_post_meta( get_the_ID(), '_pngcje_resource_year', true );
                                         $link = get_permalink();
                                         ?>
-                                        <a href="<?php echo esc_url( $link ); ?>" class="card" style="display:block;text-decoration:none;overflow:hidden;border-top:3px solid var(--ember-primary);">
+                                        <a href="<?php echo esc_url( $link ); ?>" class="card resource-card">
                                             <?php if ( has_post_thumbnail() ) : ?>
-                                                <div style="aspect-ratio:3/4;overflow:hidden;background:var(--ember-subtle);">
-                                                    <?php the_post_thumbnail( 'medium_large', [ 'alt' => get_the_title(), 'style' => 'width:100%;height:100%;object-fit:cover;' ] ); ?>
-                                                </div>
+                                                <span class="resource-card__media">
+                                                    <?php the_post_thumbnail( 'medium_large', [ 'loading' => 'lazy', 'decoding' => 'async', 'class' => 'resource-card__image', 'alt' => esc_attr( wp_strip_all_tags( get_the_title() ) ) ] ); ?>
+                                                </span>
                                             <?php else : ?>
-                                                <div style="aspect-ratio:3/4;display:flex;align-items:center;justify-content:center;background:var(--ember-subtle);">
+                                                <div class="resource-card__placeholder">
                                                     <span style="font-size:2rem;color:var(--ember-primary);">PDF</span>
                                                 </div>
                                             <?php endif; ?>
@@ -195,39 +191,6 @@ $page_resource_layout = $page_resource_layout ?? '';
                                         </a>
                                     <?php endwhile; wp_reset_postdata(); ?>
                                 </div>
-                            <?php else : ?>
-                                <div style="display:flex;flex-direction:column;gap:.85rem;">
-                                    <?php while ( $resources->have_posts() ) : $resources->the_post(); ?>
-                                        <?php
-                                        $file = get_post_meta( get_the_ID(), '_pngcje_resource_file', true );
-                                        $year = get_post_meta( get_the_ID(), '_pngcje_resource_year', true );
-                                        $link = get_permalink();
-                                        ?>
-                                        <a href="<?php echo esc_url( $link ); ?>" class="card card--resource">
-                                            <?php if ( has_post_thumbnail() ) : ?>
-                                                <span class="card__media card__media--resource-thumb">
-                                                    <?php
-                                                    echo get_the_post_thumbnail( get_the_ID(), 'pngcje-card-sm', [
-                                                        'loading'  => 'lazy',
-                                                        'decoding' => 'async',
-                                                        'alt'      => esc_attr( wp_strip_all_tags( get_the_title() ) ),
-                                                    ] );
-                                                    ?>
-                                                </span>
-                                            <?php else : ?>
-                                                <div class="card__icon">PDF</div>
-                                            <?php endif; ?>
-                                            <div class="card--resource__body">
-                                                <?php if ( $year ) : ?>
-                                                    <span class="badge badge--gray" style="margin-bottom:.35rem;display:inline-block;"><?php echo esc_html( $year ); ?></span>
-                                                <?php endif; ?>
-                                                <div style="font-size:.95rem;font-weight:700;color:var(--ink);"><?php the_title(); ?></div>
-                                            </div>
-                                            <span style="font-size:.72rem;font-weight:700;color:var(--ember-primary);flex-shrink:0;"><?php esc_html_e( 'View', 'pngcje' ); ?></span>
-                                        </a>
-                                    <?php endwhile; wp_reset_postdata(); ?>
-                                </div>
-                            <?php endif; ?>
                         <?php else : ?>
                             <div style="background:var(--ember-subtle);border-radius:var(--radius-lg);padding:2rem;text-align:center;border:1.5px dashed rgba(212,88,26,.3);">
                                 <p style="color:var(--ink-light);margin:0;"><?php esc_html_e( 'Documents will appear here once they are uploaded to the resource library.', 'pngcje' ); ?></p>

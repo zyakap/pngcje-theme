@@ -17,7 +17,6 @@ $featured_programs = [
 <div <?php pngcje_page_hero_attrs(); ?>>
     <div class="container">
         <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
-        <div class="section-label" style="margin-bottom:.75rem;">Prospectus</div>
         <h1 class="page-hero__title">Training Calendar</h1>
         <p class="page-hero__desc">A refreshed overview of scheduled PNGCJE training activities, target participants and delivery locations.</p>
     </div>

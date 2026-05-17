@@ -16,6 +16,7 @@ $type      = $types && ! is_wp_error( $types ) ? $types[0] : null;
 $icon      = pngcje_resource_icon( $type ? $type->slug : '' );
 $post_body = trim( (string) get_post_field( 'post_content', get_the_ID() ) );
 $type_link = $type ? get_term_link( $type ) : '';
+$is_annual_report = $type && 'annual-reports' === $type->slug;
 ?>
 
 <div <?php pngcje_page_hero_attrs(); ?>>
@@ -37,23 +38,42 @@ $type_link = $type ? get_term_link( $type ) : '';
     <div class="container resource-single-layout">
 
             <div class="resource-single-main">
-                <?php if ( has_post_thumbnail() ) : ?>
-                <figure class="resource-single__figure">
-                    <?php
-                    the_post_thumbnail(
-                        'pngcje-wide',
-                        [
-                            'loading'  => 'eager',
-                            'decoding' => 'async',
-                            'alt'      => esc_attr( wp_strip_all_tags( get_the_title() ) ),
-                        ]
-                    );
-                    ?>
-                </figure>
-                <?php endif; ?>
+                <div class="resource-single__feature">
+                    <?php if ( has_post_thumbnail() ) : ?>
+                    <figure class="resource-single__figure">
+                        <?php
+                        the_post_thumbnail(
+                            'medium_large',
+                            [
+                                'loading'  => 'eager',
+                                'decoding' => 'async',
+                                'alt'      => esc_attr( wp_strip_all_tags( get_the_title() ) ),
+                            ]
+                        );
+                        ?>
+                    </figure>
+                    <?php endif; ?>
+
+                    <article class="resource-single__article resource-single__prose entry-content">
+                        <h2 class="resource-single__prose-heading"><?php esc_html_e( 'About this publication', 'pngcje' ); ?></h2>
+                        <?php if ( '' !== $post_body ) : ?>
+                            <?php the_content(); ?>
+                        <?php elseif ( has_excerpt() ) : ?>
+                            <p><?php echo esc_html( get_the_excerpt() ); ?></p>
+                        <?php else : ?>
+                            <p class="resource-single__empty-note">
+                                <?php
+                                echo $file_url
+                                    ? esc_html__( 'No extended description is available. Use the download link above for the full publication.', 'pngcje' )
+                                    : esc_html__( 'No extended description is available.', 'pngcje' );
+                                ?>
+                            </p>
+                        <?php endif; ?>
+                    </article>
+                </div>
 
                 <?php if ( $file_url ) : ?>
-                <div class="resource-single__cta-strip" role="region" aria-label="<?php esc_attr_e( 'Download publication', 'pngcje' ); ?>">
+                <div class="resource-single__cta-strip<?php echo $is_annual_report ? ' annual-report-single__cta' : ''; ?>" role="region" aria-label="<?php esc_attr_e( 'Download publication', 'pngcje' ); ?>">
                     <span class="resource-single__cta-strip-meta">
                         <span aria-hidden="true"><?php echo esc_html( $icon ); ?></span>
                         <?php if ( $year ) : ?>
@@ -83,25 +103,12 @@ $type_link = $type ? get_term_link( $type ) : '';
                 </div>
                 <?php endif; ?>
 
-                <article class="resource-single__article resource-single__prose entry-content">
-                    <h2 class="resource-single__prose-heading"><?php esc_html_e( 'About this publication', 'pngcje' ); ?></h2>
-                    <?php if ( '' !== $post_body ) : ?>
-                        <?php the_content(); ?>
-                    <?php elseif ( has_excerpt() ) : ?>
-                        <p><?php echo esc_html( get_the_excerpt() ); ?></p>
-                    <?php else : ?>
-                        <p class="resource-single__empty-note">
-                            <?php
-                            echo $file_url
-                                ? esc_html__( 'No extended description is available. Use the download link above for the full publication.', 'pngcje' )
-                                : esc_html__( 'No extended description is available.', 'pngcje' );
-                            ?>
-                        </p>
-                    <?php endif; ?>
-                </article>
-
                 <nav class="resource-single__nav-links" aria-label="<?php esc_attr_e( 'Publication navigation', 'pngcje' ); ?>">
-                    <?php if ( $type && ! is_wp_error( $type_link ) ) : ?>
+                    <?php if ( $is_annual_report ) : ?>
+                    <a href="<?php echo esc_url( home_url( '/annual-reports/' ) ); ?>" class="btn btn-outline">
+                        <?php esc_html_e( 'All annual reports', 'pngcje' ); ?>
+                    </a>
+                    <?php elseif ( $type && ! is_wp_error( $type_link ) ) : ?>
                     <a href="<?php echo esc_url( $type_link ); ?>" class="btn btn-outline">
                         <?php
                         echo esc_html(

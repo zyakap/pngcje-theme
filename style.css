@@ -2051,7 +2051,7 @@ body.admin-bar .site-header-spacer { height: 152px; }
    ============================================================ */
 .page-hero {
   background: linear-gradient(135deg, var(--ember-deep) 0%, #7A2A00 100%);
-  padding-block: var(--space-20);
+  padding-block: var(--space-16);
   position: relative;
   overflow: hidden;
   background-size: cover;

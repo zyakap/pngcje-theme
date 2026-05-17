@@ -430,6 +430,7 @@ function pngcje_popups_output() {
             'showClose'      => !empty($s['show_close']),
             'closeOnOverlay' => !empty($s['close_on_overlay']),
             'width'          => $d['width'],
+            'height'         => $d['height'],
             'theme'          => $d['theme'],
             'position'       => $d['position'],
             'overlay'        => !empty($d['overlay']),
@@ -488,7 +489,7 @@ function pngcje_popup_render_html( $popup, $s, $d ) {
         <div class="pngcje-popup__body">
             <?php if (has_post_thumbnail($popup->ID)) : ?>
             <div class="pngcje-popup__image">
-                <?php echo get_the_post_thumbnail($popup->ID,'pngcje-wide',['alt'=>'']); ?>
+                <?php echo get_the_post_thumbnail($popup->ID,'full',['alt'=>'']); ?>
             </div>
             <?php endif; ?>
             <div class="pngcje-popup__content">

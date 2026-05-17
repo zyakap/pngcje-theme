@@ -74,14 +74,22 @@
     // ============================================================
     // OPEN POPUP
     // ============================================================
+    function popupUsesFixedHeight(popup) {
+        return popup && popup.height && String(popup.height).toLowerCase() !== 'auto';
+    }
+
     function openPopup(id) {
         var $popup   = $('#pngcje-popup-' + id);
         var $overlay = $('#pngcje-overlay-' + id);
         if (!$popup.length) return;
+        var popupConfig = pngcjePopups.find(function (p) { return p.id == id; });
 
         $('body').addClass('pngcje-popup-open');
         $overlay.addClass('active').attr('aria-hidden', 'false');
         $popup.addClass('active').attr('aria-hidden', 'false');
+        if (popupUsesFixedHeight(popupConfig)) {
+            $popup.addClass('pngcje-popup--fit-bounds');
+        }
 
         // Focus trap
         setTimeout(function () {
@@ -119,6 +127,7 @@
 
         $popup.removeClass('active').attr('aria-hidden', 'true');
         $overlay.removeClass('active').attr('aria-hidden', 'true');
+        $popup.removeClass('pngcje-popup--fit-bounds');
         $popup.off('keydown.popup');
 
         setTimeout(function () {

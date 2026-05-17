@@ -198,7 +198,7 @@ if ( empty( $hero_slides ) ) {
                 ['🎓','CPD Lectures', pngcje_get_resource_type_url( 'cpd-lectures' ), false ],
                 ['📅','Training Calendar',home_url('/training-calendar/'),false],
                 ['🎓','Access LMS','https://learn.pngcje.gov.pg',true],
-                ['📊','Annual Reports',home_url('/prospectus/annual-reports/'),false],
+                ['📊','Annual Reports',home_url('/annual-reports/'),false],
                 ['📰','Newsletters',home_url('/newsletters/'),false],
                 ['🎤','ED Speeches', pngcje_get_resource_type_url( 'executive-director-speeches' ), false ],
                 ['📋','Prospectus',home_url('/prospectus/'),false],
@@ -246,7 +246,7 @@ if ( empty( $hero_slides ) ) {
         <div class="events-list">
             <?php $ev=pngcje_get_upcoming_events(3);
             if(!empty($ev)) echo pngcje_homepage_events(3);
-            else echo '<div class="event-card" style="grid-column:1/-1;text-align:center;padding:2rem;"><p style="color:rgba(255,255,255,.55);">No upcoming events. Check back soon.</p><a href="'.esc_url(home_url('/prospectus/training-calendar/')).'" class="btn btn-outline-white" style="margin-top:1rem;">View Training Calendar</a></div>'; ?>
+            else echo '<div class="event-card" style="grid-column:1/-1;text-align:center;padding:2rem;"><p style="color:rgba(255,255,255,.55);">No upcoming events. Check back soon.</p><a href="'.esc_url(home_url('/training-calendar/')).'" class="btn btn-outline-white" style="margin-top:1rem;">View Training Calendar</a></div>'; ?>
         </div>
     </div>
 </section>

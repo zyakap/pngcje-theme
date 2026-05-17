@@ -136,7 +136,7 @@ $count = $wp_query->found_posts;
                             [ '📖', __('Bench Books',     'pngcje'), home_url('/bench-books/') ],
                             [ '⚖️', __('Case Notes',      'pngcje'), home_url('/papua-new-guinea-supreme-court-national-court-case-notes/') ],
                             [ '📅', __('Events',          'pngcje'), home_url('/events/') ],
-                            [ '👤', __('Our Staff',       'pngcje'), home_url('/about/our-staff/') ],
+                            [ '👤', __('Our Staff',       'pngcje'), home_url('/our-staff/') ],
                         ];
                         echo '<ul style="display:flex;flex-direction:column;gap:0.4rem;">';
                         foreach ( $browse as [$icon, $label, $url] ) {

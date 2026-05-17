@@ -31,7 +31,7 @@ get_header(); ?>
                     'title' => 'About the PNGCJE',
                     'url'   => home_url( '/about/' ),
                     'links' => [
-                        [ 'Our Staff',  home_url( '/about/staff/' ) ],
+                        [ 'Our Staff',  home_url( '/our-staff/' ) ],
                         [ 'Governance', home_url( '/about/governance/' ) ],
                         [ 'Sitemap',    home_url( '/about/sitemap/' ) ],
                     ],
@@ -48,7 +48,7 @@ get_header(); ?>
                         [ 'Executive Director Speeches', pngcje_get_resource_type_url( 'executive-director-speeches' ) ],
                         [ 'Prospectus',         home_url( '/prospectus/' ) ],
                         [ 'Lecture Series',     home_url( '/lecture-series/' ) ],
-                        [ 'Training Calendar',  home_url( '/prospectus/training-calendar/' ) ],
+                        [ 'Training Calendar',  home_url( '/training-calendar/' ) ],
                         [ 'Customer Service',   home_url( '/customer-service/' ) ],
                     ],
                 ],
@@ -57,18 +57,18 @@ get_header(); ?>
                     'title' => 'News',
                     'url'   => home_url( '/news/' ),
                     'links' => [
-                        [ 'Annual Reports', home_url( '/prospectus/annual-reports/' ) ],
+                        [ 'Annual Reports', home_url( '/annual-reports/' ) ],
                         [ 'Newsletters',    home_url( '/newsletters/' ) ],
                     ],
                 ],
                 [
                     'icon'  => '📅',
                     'title' => 'Events & Programs',
-                    'url'   => home_url( '/integrity-and-judicial-well-being-2-2/' ),
+                    'url'   => home_url( '/upcoming-events/' ),
                     'links' => [
-                        [ 'Upcoming Events', home_url( '/integrity-and-judicial-well-being-2-2/' ) ],
-                        [ 'Training Calendar', home_url( '/prospectus/training-calendar/' ) ],
-                        [ 'Integrity and Judicial Well-being', home_url( '/integrity-and-judicial-well-being-2/' ) ],
+                        [ 'Upcoming Events', home_url( '/upcoming-events/' ) ],
+                        [ 'Training Calendar', home_url( '/training-calendar/' ) ],
+                        [ 'Integrity and Judicial Well-being', home_url( '/integrity-and-judicial-well-being/' ) ],
                     ],
                 ],
                 [

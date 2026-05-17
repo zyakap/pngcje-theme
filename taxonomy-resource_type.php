@@ -104,48 +104,27 @@ $total       = $term->count ?? 0;
         ?>
 
         <?php if ( $resources->have_posts() ) : ?>
-        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;">
+        <div class="resource-grid grid grid-3">
             <?php while ( $resources->have_posts() ) : $resources->the_post();
-                $file_url = get_post_meta( get_the_ID(), '_pngcje_resource_file',     true );
-                $yr       = get_post_meta( get_the_ID(), '_pngcje_resource_year',     true );
-                $ftype    = get_post_meta( get_the_ID(), '_pngcje_resource_filetype', true ) ?: 'PDF';
-                $fsize    = get_post_meta( get_the_ID(), '_pngcje_resource_filesize', true );
-                $link     = get_permalink();
+                $yr = get_post_meta( get_the_ID(), '_pngcje_resource_year', true );
+                $link = get_permalink();
             ?>
-            <a href="<?php echo esc_url( $link ); ?>"
-               class="card card--resource reveal"
-               aria-label="<?php echo esc_attr( get_the_title() ); ?>">
+            <a href="<?php echo esc_url( $link ); ?>" class="card resource-card reveal" aria-label="<?php echo esc_attr( get_the_title() ); ?>">
                 <?php if ( has_post_thumbnail() ) : ?>
-                <span class="card__media card__media--resource-thumb">
-                    <?php
-                    echo get_the_post_thumbnail( get_the_ID(), 'pngcje-card-sm', [
-                        'loading' => 'lazy',
-                        'decoding' => 'async',
-                        'alt'     => esc_attr( wp_strip_all_tags( get_the_title() ) ),
-                    ] );
-                    ?>
+                <span class="resource-card__media">
+                    <?php the_post_thumbnail( 'medium_large', [ 'loading' => 'lazy', 'decoding' => 'async', 'class' => 'resource-card__image', 'alt' => esc_attr( wp_strip_all_tags( get_the_title() ) ) ] ); ?>
                 </span>
                 <?php else : ?>
-                <span class="card__icon" aria-hidden="true"><?php echo esc_html( $icon ); ?></span>
+                <div class="resource-card__placeholder">
+                    <span style="font-size:2rem;color:var(--ember-primary);"><?php echo esc_html( $icon ); ?></span>
+                </div>
                 <?php endif; ?>
-                <div class="card--resource__body">
-                    <div style="display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-bottom:.4rem;">
-                        <?php if ( $yr    ) echo '<span class="badge badge--gray">' . esc_html( $yr ) . '</span>'; ?>
-                        <?php if ( $ftype ) echo '<span class="badge badge--gold">' . esc_html( strtoupper( $ftype ) ) . '</span>'; ?>
-                    </div>
-                    <div style="font-size:.9rem;font-weight:600;color:var(--ink);line-height:1.4;"><?php the_title(); ?></div>
-                    <?php if ( has_excerpt() ) : ?>
-                    <p style="font-size:.78rem;color:var(--ink-light);line-height:1.5;margin:.3rem 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">
-                        <?php echo esc_html( pngcje_excerpt( null, 12 ) ); ?>
-                    </p>
+                <div class="card__body">
+                    <?php if ( $yr ) : ?>
+                    <span class="badge badge--gray" style="margin-bottom:.35rem;display:inline-block;"><?php echo esc_html( $yr ); ?></span>
                     <?php endif; ?>
+                    <h3 style="font-size:var(--size-base);font-weight:800;color:var(--ink);margin:0;"><?php the_title(); ?></h3>
                 </div>
-                <?php if ( $file_url ) : ?>
-                <div style="flex-shrink:0;text-align:right;">
-                    <span style="font-size:.72rem;font-weight:700;color:var(--ember-primary);white-space:nowrap;display:block;">View</span>
-                    <?php if ( $fsize ) echo '<span style="font-size:.65rem;color:var(--ink-light);">' . esc_html( pngcje_file_size( $fsize ) ) . '</span>'; ?>
-                </div>
-                <?php endif; ?>
             </a>
             <?php endwhile; wp_reset_postdata(); ?>
         </div>

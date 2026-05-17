@@ -14,7 +14,6 @@ while ( have_posts() ) : the_post();
     <div <?php pngcje_page_hero_attrs(); ?>>
         <div class="container">
             <div class="page-hero__eyebrow"><?php pngcje_breadcrumbs(); ?></div>
-            <div class="section-label" style="margin-bottom:.75rem;"><?php esc_html_e( 'Board Member Profile', 'pngcje' ); ?></div>
             <h1 class="page-hero__title"><?php the_title(); ?></h1>
             <?php if ( $role || $organisation ) : ?>
                 <p class="page-hero__desc"><?php echo esc_html( trim( $role . ( $role && $organisation ? ' - ' : '' ) . $organisation ) ); ?></p>

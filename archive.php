@@ -210,7 +210,7 @@ $is_category = is_category();
                             [ '📖', __( 'Bench Books',        'pngcje' ), pngcje_get_resource_type_url( 'bench-books' ) ],
                             [ '📗', __( 'Judicial Handbook',  'pngcje' ), pngcje_get_resource_type_url( 'judicial-handbook' ) ],
                             [ '⚖️', __( 'Case Notes',         'pngcje' ), pngcje_get_resource_type_url( 'case-notes' ) ],
-                            [ '📅', __( 'Training Calendar',  'pngcje' ), home_url('/prospectus/training-calendar/') ],
+                            [ '📅', __( 'Training Calendar',  'pngcje' ), home_url('/training-calendar/') ],
                         ];
                         echo '<ul style="display:flex;flex-direction:column;gap:0.5rem;">';
                         foreach ( $ql as [$icon, $label, $url] ) {
