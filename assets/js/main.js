@@ -187,14 +187,12 @@
     function animateCounter($el, target, duration = 1500) {
         const start    = 0;
         const startTime = performance.now();
-        const isYear   = target >= 2000;
-
         function update(currentTime) {
             const elapsed  = currentTime - startTime;
             const progress = Math.min(elapsed / duration, 1);
             const ease     = 1 - Math.pow(1 - progress, 3); // ease-out cubic
             const current  = Math.round(start + (target - start) * ease);
-            $el.text(current.toLocaleString());
+            $el.text(String(current));
             if (progress < 1) requestAnimationFrame(update);
         }
         requestAnimationFrame(update);
